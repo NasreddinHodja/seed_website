@@ -1,0 +1,7 @@
+#highlight {
+    width: 40%;
+}
+
+#highlight:hover {
+    color: red;
+}
