@@ -20,6 +20,17 @@ a {
     background: none;
 }
 
+video {
+    /* position: fixed; */
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+    height: 95%;
+    width: 95%;
+    min-width: 1100px;
+    min-height: 1000px;
+}
+
 #header {
     display: flex;
     position: fixed;
@@ -65,15 +76,4 @@ a {
 
 #header > #right-logo > img {
     width: 180px;
-}
-
-video {
-    /* position: fixed; */
-    display: block;
-    margin: auto;
-    margin-top: 50px;
-    height: 95%;
-    width: 95%;
-    min-width: 1100px;
-    min-height: 1000px;
 }
