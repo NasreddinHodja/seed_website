@@ -1,7 +1,29 @@
-#highlight {
-    width: 40%;
+@font-face {
+    font-family: MonumentExt;
+    src: url("./assets/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
 }
 
-#highlight:hover {
-    color: red;
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: MonumentExt;
+}
+
+a {
+    text-decoration: none;
+    background: black;
+}
+
+body {
+    background-image: url("./assets/landing_bg.jpeg");
+    background-size: 200px 200px;
+}
+
+#home-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 50px;
+    height: 100%;
 }
