@@ -15,14 +15,6 @@ a {
 }
 
 video {
-    /* margin: auto; */
-    /* margin-top: 50px; */
-    /* height: 100%; */
-    /* width: 100%; */
-    /* top: 0; */
-    /* left: 0; */
-    /* min-width: 1100px; */
-    /* min-height: 1000px; */
     position: fixed;
     top: 0;
     left: 0;
@@ -77,16 +69,16 @@ video {
 
 #content {
     background-size: cover;
-    height: 100%;
+    margin-top: 160px;
     width: 100%;
     min-width: 1100px;
     font-size: 20px;
 }
 
-#wrapper {
+#panels-wrapper {
     display: flex;
     background: none;
-    padding: 250px 100px 0 100px;
+    padding: 100px 100px 0 100px;
     min-width: inherit;
 }
 
