@@ -16,8 +16,8 @@ a {
 }
 
 body {
-    background-image: url("./assets/landing_bg.jpeg");
-    background-size: 200px 200px;
+    background-image: url("./assets/landing_bg.gif");
+    background-size: 20%;
 }
 
 #home-button {
@@ -26,4 +26,8 @@ body {
     align-items: center;
     font-size: 50px;
     height: 100%;
+}
+
+#home-button > a {
+    padding: 0 5px 0 5px;
 }
