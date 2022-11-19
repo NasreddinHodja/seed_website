@@ -67,11 +67,71 @@ video {
     width: 180px;
 }
 
+
+@media (max-width: 1100px) {
+    #header {
+        display: block;
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        background: black;
+        width: 100%;
+        height: 130px;
+        margin: 0px;
+        min-width: unset;
+    }
+
+    #header > #left-logo {
+        display: block;
+        height: unset;
+        /* width: auto; */
+        background: none;
+        min-width: unset;
+        margin: 30px 0px 0 0;
+        width: 50%;
+        text-align: end;
+        font-size: 40px;
+    }
+
+    #header > #left-logo > a {
+        margin-right: 33px;
+    }
+
+    #header > #choices {
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+        min-width: unset;
+        margin-top: unset;
+        font-size: 23px;
+        margin: 5px 0 10px 0;
+    }
+
+    #header > #right-logo {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+        margin: 13px 0 0 0;
+        display: unset;
+        align-items: unset;
+        background: none;
+        padding-bottom: unset;
+        width: 50%;
+        min-width: unset;
+    }
+
+    #header > #right-logo > img {
+        margin-left: 83px;
+        width: 130px;
+        background: none;
+    }
+}
+
 #content {
     background-size: cover;
     margin-top: 160px;
     width: 100%;
-    min-width: 1100px;
+    min-width: 900px;
     font-size: 20px;
 }
 
@@ -84,8 +144,8 @@ video {
 
 #left-panel {
     width: 50%;
-    min-width: 400px;
-    margin-right: 35%;
+    /* min-width: 400px; */
+    margin-right: 20%;
 }
 
 #left-panel > p, #right-panel > p {
@@ -102,5 +162,49 @@ video {
 
 #right-panel {
     width: 50%;
-    min-width: 400px;
+    /* min-width: 400px; */
+}
+
+@media (max-width: 1100px) {
+    #content {
+        background-size: cover;
+        margin-top: 160px;
+        width: 100%;
+        min-width: unset;
+        font-size: 20px;
+        width: 100%;
+    }
+
+    #panels-wrapper {
+        display: block;
+        width: 90%;
+        margin: auto;
+        background: none;
+        padding: unset;
+        min-width: inherit;
+    }
+
+    #left-panel {
+        width: unset;
+        min-width: unset;
+        margin-right: unset;
+        margin-bottom: 50px;
+    }
+
+    #right-panel {
+        width: unset;
+        min-width: unset;
+    }
+
+    #left-panel > p, #right-panel > p {
+        background: black;
+        margin-top: 10px;
+    }
+
+    #left-panel > h1, #right-panel > h1 {
+        display: inline-block;
+        padding: 0 5px 0 5px;
+        background: black;
+        color: #aed795;
+    }
 }

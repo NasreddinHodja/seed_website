@@ -17,7 +17,8 @@ a {
 
 body {
     background-image: url("./assets/landing_bg.gif");
-    background-size: 20%;
+    /* background-size: 20%; */
+    background-size: cover;
 }
 
 #home-button {

@@ -3,6 +3,10 @@
     src: url("../assets/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
 }
 
+:root {
+    --green: #aed795;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -25,6 +29,8 @@ a {
     height: 160px;
     margin: 0px;
     min-width: 1100px;
+    border-bottom: solid 2px;
+    border-color: var(--green);
 }
 
 
@@ -64,11 +70,7 @@ a {
     width: 100%;
     min-width: 1100px;
     font-size: 20px;
-}
-
-hr {
     margin-top: 160px;
-    color: #aed795;
 }
 
 #content-choices {
@@ -85,7 +87,7 @@ ul {
 
 ul > li::before {
     content: "_";
-    color: #aed795;
+    color: var(--green);
 }
 
 ul > li {
@@ -93,5 +95,5 @@ ul > li {
 }
 
 #content-choices a {
-    color: #aed795;
+    color: var(--green);
 }

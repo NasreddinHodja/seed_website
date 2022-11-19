@@ -29,6 +29,8 @@ a {
     height: 160px;
     margin: 0px;
     min-width: 1100px;
+    border-bottom: solid 2px;
+    border-color: var(--green);
 }
 
 
@@ -69,12 +71,9 @@ a {
     width: 100%;
     min-width: 1100px;
     font-size: 20px;
+    margin-top: 160px;
 }
 
-hr {
-    margin-top: 160px;
-    color: var(--green);
-}
 
 #description {
     padding: 5% 0 0 5%;
@@ -110,4 +109,17 @@ hr {
     /* height: 100%; */
     padding: 250px 10px 0 10px;
     justify-content: center;
+}
+
+#grid-container {
+    margin: auto;
+    margin-top: 80px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    row-gap: 1rem;
+    column-gap: 1rem;
+}
+
+.grid-item > img {
+    height: 200px;
 }
