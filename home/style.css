@@ -1,3 +1,5 @@
+@import "../header.css";
+
 @font-face {
     font-family: MonumentExt;
     src: url("../assets/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
@@ -30,112 +32,7 @@ video {
     /* min-height: 1000px; */
 }
 
-#header {
-    display: flex;
-    position: fixed;
-    left: 0px;
-    top: 0px;
-    background: none;
-    width: 100%;
-    height: 160px;
-    margin: 0px;
-    min-width: 1100px;
-}
-
-
-#header > #left-logo {
-    display: flex;
-    height: 90%;
-    width: 20%;
-    background: none;
-    min-width: 300px;
-    justify-content: flex-end;
-    align-items: flex-end;
-    font-size: 55px;
-}
-
-#header > #choices {
-    justify-content: center;
-    text-align: center;
-    background: none;
-    width: 60%;
-    min-width: 600px;
-    margin-top: 92px;
-    font-size: 30px;
-}
-
-#header > #right-logo {
-    display: flex;
-    align-items: flex-end;
-    background: none;
-    padding-bottom: 25px;
-    width: 20%;
-    min-width: 250px;
-}
-
-#header > #right-logo > img {
-    width: 180px;
-}
-
-
 @media (max-width: 1100px) {
-    #header {
-        display: block;
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        background: none;
-        width: 100%;
-        height: 160px;
-        margin: 0px;
-        min-width: unset;
-    }
-
-    #header > #left-logo {
-        display: block;
-        height: unset;
-        /* width: auto; */
-        background: none;
-        min-width: unset;
-        margin: 30px 0px 0 0;
-        width: 50%;
-        text-align: end;
-        font-size: 40px;
-    }
-
-    #header > #left-logo > a {
-        margin-right: 33px;
-    }
-
-    #header > #choices {
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        min-width: unset;
-        margin-top: unset;
-        font-size: 23px;
-        margin: 5px 0 10px 0;
-    }
-
-    #header > #right-logo {
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        margin: 13px 0 0 0;
-        display: unset;
-        align-items: unset;
-        background: none;
-        padding-bottom: unset;
-        width: 50%;
-        min-width: unset;
-    }
-
-    #header > #right-logo > img {
-        margin-left: 83px;
-        width: 130px;
-        background: none;
-    }
-
     video {
         display: block;
         margin: auto;
