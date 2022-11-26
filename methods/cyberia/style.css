@@ -36,6 +36,9 @@ a {
     margin: 160px 0 60px 0;
 }
 
+#content h1 {
+    color: var(--green);
+}
 
 #description {
     padding: 5% 0 0 5%;
@@ -52,11 +55,11 @@ a {
 #picture-frame {
     display: flex;
     background: var(--green);
-    padding: 10px 0 10px 10px;
+    padding: 10px;
     height: 500px;
 }
 
-#picture-frame > img {
+#picture-frame > a > img {
     height: 500px;
 }
 
@@ -80,19 +83,18 @@ a {
         width: 100%;
         min-width: unset;
         font-size: 18px;
-        margin-top: 130px;
+        margin-top: 120px;
     }
 
 
     #description {
-        padding: 5% 0 0 5%;
+        padding: 0 0 0 5%;
         width: 90%;
     }
 
     #picture {
         display: block;
         justify-content: unset;
-        padding: 5% 5% 0 0;
         margin: auto;
         margin-bottom: 10px;
         width: 87%;
@@ -101,12 +103,11 @@ a {
     #picture-frame {
         display: flex;
         background: var(--green);
-        padding: 10px 0 10px 10px;
         height: unset;
         width: 100%;
     }
 
-    #picture-frame > img {
+    #picture-frame > a > img {
         height: unset;
         width: 100%
     }
@@ -125,8 +126,34 @@ a {
     }
 }
 
+#galery-content {
+    display: block;
+    background: black;
+    width: 100%;
+    min-width: 1100px;
+    font-size: 20px;
+    margin: 180px 0 60px 0;
+}
+
+#galery-content > h1 {
+    color: var(--green);
+    padding: 10px 0 20px 2rem;
+}
+
+#galery-content > #flyer {
+    margin: auto;
+    width: 50%;
+    background: blue;
+}
+
+#galery-content > #flyer img {
+    width: 100%;
+    background: blue;
+}
 
 #grid-container {
+    width: 1250px;
+    /* background: blue; */
     margin: auto;
     margin-top: 80px;
     display: grid;
@@ -139,10 +166,41 @@ a {
     height: 200px;
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1100px) {
+    #galery-content {
+        min-width: unset;
+        background: black;
+        width: 100%;
+        font-size: 20px;
+        margin-top: 120px;
+    }
+
+    #galery-content > h1 {
+        color: var(--green);
+        width: 100%;
+        font-size: 25px;
+        text-align: center;
+        padding: unset;
+        padding-bottom: 1rem;
+        margin: unset;
+    }
+
+    #galery-content > #flyer {
+        margin: auto;
+        margin-bottom: 1rem;
+        width: 100%;
+        background: blue;
+    }
+
+    #galery-content > #flyer > img {
+        width: 100%;
+        background: blue;
+    }
+
     #grid-container {
         display: grid;
         margin-top: unset;
+        width: 100%;
         grid-template-columns: 1fr;
     }
 

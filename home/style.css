@@ -13,6 +13,14 @@
     font-family: MonumentExt;
 }
 
+#header > #choices {
+    background: none;
+}
+
+#header {
+    background: none;
+}
+
 body {
     overflow: hidden;
 }
