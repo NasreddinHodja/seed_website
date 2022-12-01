@@ -47,12 +47,8 @@ a {
 
 @media (max-width: 840px) {
     #home-button {
-        width: 260px;
+        width: 330px;
         height: 300px;
-        /* background-attachment: fixed; */
         background-image: url("./assets/access.gif");
-        /* background: blue; */
-        /* background-size: cover; */
-        /* background-position: center center; */
     }
 }
