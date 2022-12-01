@@ -5,6 +5,10 @@
     src: url("../assets/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
 }
 
+:root {
+    --green: #aed795;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -36,6 +40,17 @@ video {
     margin-top: 70px;
     height: 100%;
     width: 100%;
+}
+
+#footer {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    font-size: 12px;
+}
+
+#footer > a {
+    color: var(--green);
 }
 
 @media (max-width: 1100px) {
