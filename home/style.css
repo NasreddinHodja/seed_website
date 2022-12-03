@@ -50,7 +50,8 @@ video {
 }
 
 #footer > a {
-    color: var(--green);
+    /* color: var(--green); */
+    color: rgba(174, 215, 149, 0.3);
 }
 
 @media (max-width: 1100px) {
