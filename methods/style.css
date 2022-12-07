@@ -21,7 +21,7 @@ a {
     text-decoration: none;
 }
 
-#header {
+#header-container {
     border-bottom: solid 2px;
     border-color: var(--green);
 }
@@ -60,6 +60,11 @@ ul > li {
 
 
 @media (max-width: 1100px) {
+    #header-container {
+        border-bottom: solid 2px;
+        border-color: var(--green);
+    }
+
     #content {
         min-width: unset;
     }

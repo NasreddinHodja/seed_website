@@ -1,31 +1,33 @@
-#header {
-    display: flex;
+#header-container {
     position: fixed;
-    left: 0px;
-    top: 0px;
-    background: black;
-    width: 100%;
+    top: 0;
+    left: 0;
+    width: 84%;
     height: 160px;
-    margin: 0px;
+    padding: 0 8% 0 8%;
+    background: none;
+}
+
+#header {
+    height: 100%;
+    display: flex;
     min-width: 1100px;
+    background: none;
 }
 
 #header > #left-logo {
+    /* background: yellow; */
     display: flex;
-    height: 90%;
-    width: 20%;
-    min-width: 300px;
-    justify-content: flex-end;
+    width: 23%;
     align-items: flex-end;
     font-size: 55px;
+    padding-bottom: 8px;
 }
 
 #header > #choices {
-    justify-content: center;
     text-align: center;
-    width: 60%;
-    min-width: 600px;
-    margin-top: 92px;
+    width: 54%;
+    padding-top: 100px;
     font-size: 30px;
 }
 
@@ -34,20 +36,27 @@
 }
 
 #header > #right-logo {
+    /* background: yellow; */
     display: flex;
+    justify-content: flex-end;
     align-items: flex-end;
-    padding-bottom: 25px;
-    padding-right:
-    width: 20%;
-    min-width: 250px;
+    padding-bottom: 20px;
+    width: 23%;
 }
 
 #header > #right-logo img {
-    width: 180px;
+    width: 190px;
 }
 
 
 @media (max-width: 1100px) {
+    #header-container {
+        background: unset;
+        height: 110px;
+        width: 100%;
+        padding: unset;
+    }
+
     #header {
         display: block;
         position: fixed;
@@ -83,7 +92,7 @@
         background: none;
         margin-top: unset;
         font-size: 1.13rem;
-        margin: 5px 0 10px 0;
+        padding-top: unset;
     }
 
     #header > #right-logo {
@@ -92,9 +101,8 @@
         right: 0px;
         margin: 13px 0 0 0;
         display: flex;
-        /* align-items: unset; */
-        /* align-items: flex-end; */
-        /* justify-content: flex-end; */
+        align-items: unset;
+        justify-content: unset;
         background: none;
         padding-bottom: unset;
         width: 50%;
@@ -102,7 +110,7 @@
     }
 
     #header > #right-logo img {
-        margin-left: 65px;
+        margin-left: 66px;
         width: 100px;
     }
 }

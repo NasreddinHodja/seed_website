@@ -9,6 +9,10 @@
     --green: #aed795;
 }
 
+#header-container {
+    background: black;
+}
+
 * {
     margin: 0;
     padding: 0;
