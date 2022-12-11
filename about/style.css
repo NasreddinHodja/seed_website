@@ -40,24 +40,15 @@ video {
     font-size: 20px;
 }
 
-/* #content a > h1::after { */
-/*     /\* border-bottom: solid 10px; *\/ */
-/*     /\* border-color: var(--green); *\/ */
-/*     /\* background: black; *\/ */
-/*     content: "˽"; */
-/* } */
-
 #content a > h1 {
     border-bottom: solid 10px;
     border-color: var(--green);
-    /* text-decoration: underline; */
-    /* color: blue; */
 }
 
 #panels-wrapper {
     display: flex;
     background: none;
-    padding: 100px 100px 0 100px;
+    padding: 100px 8% 0 8%;
     min-width: inherit;
 }
 

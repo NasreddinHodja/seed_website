@@ -41,14 +41,14 @@ a {
 }
 
 #description {
-    padding: 5% 0 0 5%;
+    padding: 5% 0 0 8%;
     width: 40%;
 }
 
 #picture {
     display: flex;
     justify-content: flex-end;
-    padding: 5% 5% 0 0;
+    padding: 5% 8% 0 0;
     width: 60%;
 }
 
