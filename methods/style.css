@@ -21,11 +21,6 @@ a {
     text-decoration: none;
 }
 
-#header-container {
-    border-bottom: solid 2px;
-    border-color: var(--green);
-}
-
 #content {
     background: black;
     width: 100%;
