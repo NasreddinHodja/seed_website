@@ -40,11 +40,6 @@ video {
     font-size: 20px;
 }
 
-#content a > h1 {
-    border-bottom: solid 10px;
-    border-color: var(--green);
-}
-
 #panels-wrapper {
     display: flex;
     background: none;
