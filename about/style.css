@@ -1,10 +1,6 @@
 @import "../header.css";
 @import "../defaults.css";
 
-:root {
-    --green: #aed795;
-}
-
 #header-container {
     background: black;
 }

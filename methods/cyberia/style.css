@@ -1,23 +1,11 @@
 @import "../../header.css";
-
-@font-face {
-    font-family: MonumentExt;
-    src: url("../../assets/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
-}
-
-:root {
-    --green: #aed795;
-}
+@import "../../defaults.css";
 
 #header-container {
     background: black;
 }
 
 * {
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-family: MonumentExt;
     background: black;
 }
 

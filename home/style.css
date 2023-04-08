@@ -1,20 +1,8 @@
 @import "../header.css";
-
-@font-face {
-    font-family: MonumentExt;
-    src: url("../assets/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
-}
-
-:root {
-    --green: #aed795;
-}
+@import "../defaults.css";
 
 * {
-    margin: 0;
-    padding: 0;
     background: black;
-    color: white;
-    font-family: MonumentExt;
 }
 
 #header > #choices {
