@@ -2,102 +2,101 @@
 @import "../defaults.css";
 
 #header-container {
-    background: black;
+  background: black;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 video {
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    min-width: 100vw;
-    min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 #content {
-    padding-top: 160px;
-    width: 100%;
-    min-width: 900px;
-    font-size: 20px;
+  padding-top: 160px;
+  width: 100%;
+  min-width: 900px;
+  font-size: 20px;
 }
 
 #panels-wrapper {
-    display: flex;
-    background: none;
-    padding: 0 8% 0 8%;
-    margin-top: 70px;
-    min-width: inherit;
-    justify-content: space-between;
-    align-content: space-between;
-    flex-flow: column wrap;
-    height: 563px;
+  display: flex;
+  background: none;
+  padding: 0 8% 0 8%;
+  margin-top: 70px;
+  min-width: inherit;
+  justify-content: space-between;
+  align-content: space-between;
+  flex-flow: column wrap;
+  height: 563px;
 }
 
 .panel {
-    width: 600px;
+  width: 600px;
 }
 
 .who-are {
-    height: 300px;
-    order: 1;
+  height: 300px;
+  order: 1;
 }
 
 .philosophy {
-    order: 3;
+  order: 3;
 }
 
 .contact {
-    order: 2;
+  order: 2;
 }
 
 .panel h1 {
-    display: inline-block;
-    color: #aed795;
-    background: black;
-
+  display: inline-block;
+  color: #aed795;
+  background: black;
 }
 
 .panel p {
-    margin-top: 10px;
-    background: black;
+  margin-top: 10px;
+  background: black;
 }
 
 #contacts {
-    background: black;
+  background: black;
 }
 
 @media (max-width: 1200px) {
-    #content {
-        background-size: cover;
-        margin-top: unset;
-        width: 100%;
-        min-width: unset;
-        font-size: 20px;
-        width: 100%;
-    }
+  #content {
+    background-size: cover;
+    margin-top: unset;
+    width: 100%;
+    min-width: unset;
+    font-size: 20px;
+    width: 100%;
+  }
 
-    #panels-wrapper {
-        display: block;
-        width: 90%;
-        margin: auto;
-        background: none;
-        padding: unset;
-        min-width: inherit;
-    }
+  #panels-wrapper {
+    display: block;
+    width: 90%;
+    margin: auto;
+    background: none;
+    padding: unset;
+    min-width: inherit;
+  }
 
-    .panel {
-        width: unset;
-        min-width: unset;
-        margin-right: unset;
-        margin-bottom: 50px;
-    }
+  .panel {
+    width: unset;
+    min-width: unset;
+    margin-right: unset;
+    margin-bottom: 50px;
+  }
 
-    .panel p {
-        background: black;
-        margin-top: 10px;
-    }
+  .panel p {
+    background: black;
+    margin-top: 10px;
+  }
 }

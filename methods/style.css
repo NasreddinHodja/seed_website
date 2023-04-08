@@ -2,61 +2,60 @@
 @import "../defaults.css";
 
 * {
-    background: black;
+  background: black;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #content {
-    background: black;
-    width: 100%;
-    min-width: 1100px;
-    font-size: 20px;
-    margin-top: 160px;
+  background: black;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin-top: 160px;
 }
 
 #content-choices {
-    font-size: 60px;
-    width: 70%;
-    margin: auto;
+  font-size: 60px;
+  width: 70%;
+  margin: auto;
 }
 
 ul {
-    padding-top: 10%;
-    list-style: none;
+  padding-top: 10%;
+  list-style: none;
 }
 
 ul > li::before {
-    content: "_";
-    color: var(--green);
+  content: "_";
+  color: var(--green);
 }
 
 ul > li {
-    margin-top: 30px;
+  margin-top: 30px;
 }
 
 #content-choices a {
-    color: var(--green);
+  color: var(--green);
 }
 
-
 @media (max-width: 1200px) {
-    /* #header-container { */
-    /*     border-bottom: solid 2px; */
-    /*     border-color: var(--green); */
-    /* } */
+  /* #header-container { */
+  /*     border-bottom: solid 2px; */
+  /*     border-color: var(--green); */
+  /* } */
 
-    #content {
-        min-width: unset;
-    }
+  #content {
+    min-width: unset;
+  }
 
-    #content-choices {
-        font-size: 40px;
-        width: 420px;
-        width: 95%;
-        margin: auto;
-        background: black;
-    }
+  #content-choices {
+    font-size: 40px;
+    width: 420px;
+    width: 95%;
+    margin: auto;
+    background: black;
+  }
 }

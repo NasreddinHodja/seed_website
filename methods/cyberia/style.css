@@ -2,205 +2,204 @@
 @import "../../defaults.css";
 
 #header-container {
-    background: black;
+  background: black;
 }
 
 * {
-    background: black;
+  background: black;
 }
 
 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #content {
-    display: flex;
-    background: black;
-    width: 100%;
-    min-width: 1100px;
-    font-size: 20px;
-    margin: 160px 0 60px 0;
+  display: flex;
+  background: black;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin: 160px 0 60px 0;
 }
 
 #content h1 {
-    color: var(--green);
+  color: var(--green);
 }
 
 #description {
-    padding: 5% 0 0 8%;
-    width: 40%;
+  padding: 5% 0 0 8%;
+  width: 40%;
 }
 
 #picture {
-    display: flex;
-    justify-content: flex-end;
-    padding: 5% 8% 0 0;
-    width: 60%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 5% 8% 0 0;
+  width: 60%;
 }
 
 #picture-frame {
-    display: flex;
-    background: var(--green);
-    padding: 3px;
-    height: 500px;
-    /* height: 100%; */
-    /* width: 50%; */
+  display: flex;
+  background: var(--green);
+  padding: 3px;
+  height: 500px;
+  /* height: 100%; */
+  /* width: 50%; */
 }
 
 #picture-frame > a > img {
-    height: 500px;
+  height: 500px;
 }
 
 #picture-frame > a {
-    /* background: var(--green); */
+  /* background: var(--green); */
 }
 
 #picture-button {
+  display: flex;
+  background: var(--green);
+  color: black;
+  width: 50%;
+  padding: 250px 10px 0 10px;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  #content {
+    display: block;
+    background: black;
+    width: 100%;
+    min-width: unset;
+    font-size: 18px;
+    margin-top: 120px;
+  }
+
+  #description {
+    padding: 0 0 0 5%;
+    width: 90%;
+  }
+
+  #picture {
+    display: block;
+    justify-content: unset;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 30px;
+    padding: unset;
+    width: 90%;
+  }
+
+  #picture-frame {
+    display: flex;
+    background: var(--green);
+    height: unset;
+    width: 100%;
+  }
+
+  #picture-frame > a > img {
+    height: unset;
+    width: 100%;
+  }
+
+  #picture-frame > a {
+    background: var(--green);
+  }
+
+  #picture-button {
     display: flex;
     background: var(--green);
     color: black;
-    width: 50%;
-    padding: 250px 10px 0 10px;
+    /* height: 100%; */
+    padding: 0 10px 0 10px;
     justify-content: center;
-}
-
-@media (max-width: 1200px) {
-    #content {
-        display: block;
-        background: black;
-        width: 100%;
-        min-width: unset;
-        font-size: 18px;
-        margin-top: 120px;
-    }
-
-
-    #description {
-        padding: 0 0 0 5%;
-        width: 90%;
-    }
-
-    #picture {
-        display: block;
-        justify-content: unset;
-        margin: auto;
-        margin-bottom: 10px;
-        margin-top: 30px;
-        padding: unset;
-        width: 90%;
-    }
-
-    #picture-frame {
-        display: flex;
-        background: var(--green);
-        height: unset;
-        width: 100%;
-    }
-
-    #picture-frame > a > img {
-        height: unset;
-        width: 100%
-    }
-
-    #picture-frame > a {
-        background: var(--green);
-    }
-
-    #picture-button {
-        display: flex;
-        background: var(--green);
-        color: black;
-        /* height: 100%; */
-        padding: 0 10px 0 10px;
-        justify-content: center;
-    }
+  }
 }
 
 #galery-content {
-    display: block;
-    width: 100%;
-    min-width: 1100px;
-    font-size: 20px;
-    margin: 180px 0 60px 0;
+  display: block;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin: 180px 0 60px 0;
 }
 
 #galery-content > h1 {
-    color: var(--green);
-    padding: 10px 0 20px 8%;
-    /* background: blue; */
+  color: var(--green);
+  padding: 10px 0 20px 8%;
+  /* background: blue; */
 }
 
 #galery-content > #flyer {
-    margin: auto;
-    width: 50%;
-    background: blue;
+  margin: auto;
+  width: 50%;
+  background: blue;
 }
 
 #galery-content > #flyer img {
-    width: 100%;
-    background: blue;
+  width: 100%;
+  background: blue;
 }
 
 #grid-container {
-    width: 1250px;
-    /* background: blue; */
-    margin: auto;
-    margin-top: 80px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    row-gap: 1rem;
-    column-gap: 1rem;
+  width: 1250px;
+  /* background: blue; */
+  margin: auto;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
 }
 
 .grid-item > img {
-    height: 200px;
+  height: 200px;
 }
 
 @media (max-width: 1200px) {
-    #galery-content {
-        min-width: unset;
-        background: black;
-        width: 100%;
-        font-size: 20px;
-        margin-top: 120px;
-    }
+  #galery-content {
+    min-width: unset;
+    background: black;
+    width: 100%;
+    font-size: 20px;
+    margin-top: 120px;
+  }
 
-    #galery-content > h1 {
-        color: var(--green);
-        width: 100%;
-        font-size: 25px;
-        text-align: center;
-        padding: unset;
-        padding-bottom: 1rem;
-        margin: unset;
-    }
+  #galery-content > h1 {
+    color: var(--green);
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding: unset;
+    padding-bottom: 1rem;
+    margin: unset;
+  }
 
-    #galery-content > #flyer {
-        margin: auto;
-        margin-bottom: 1rem;
-        width: 100%;
-        background: blue;
-    }
+  #galery-content > #flyer {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 100%;
+    background: blue;
+  }
 
-    #galery-content > #flyer > img {
-        width: 100%;
-        background: blue;
-    }
+  #galery-content > #flyer > img {
+    width: 100%;
+    background: blue;
+  }
 
-    #grid-container {
-        display: grid;
-        margin-top: unset;
-        width: 100%;
-        grid-template-columns: 1fr;
-    }
+  #grid-container {
+    display: grid;
+    margin-top: unset;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
 
-    .grid-item {
-        width: 100%;
-        margin: auto;
-    }
+  .grid-item {
+    width: 100%;
+    margin: auto;
+  }
 
-    .grid-item > img {
-        height: unset;
-        width: 100%;
-    }
+  .grid-item > img {
+    height: unset;
+    width: 100%;
+  }
 }

@@ -1,116 +1,115 @@
 #header-container {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 84%;
-    height: 160px;
-    padding: 0 8% 0 8%;
-    background: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 84%;
+  height: 160px;
+  padding: 0 8% 0 8%;
+  background: none;
 }
 
 #header {
-    height: 100%;
-    display: flex;
-    min-width: 1100px;
-    background: none;
+  height: 100%;
+  display: flex;
+  min-width: 1100px;
+  background: none;
 }
 
 #header > #left-logo {
-    /* background: yellow; */
-    display: flex;
-    width: 23%;
-    align-items: flex-end;
-    font-size: 55px;
-    padding-bottom: 8px;
+  /* background: yellow; */
+  display: flex;
+  width: 23%;
+  align-items: flex-end;
+  font-size: 55px;
+  padding-bottom: 8px;
 }
 
 #header > #choices {
-    text-align: center;
-    width: 54%;
-    padding-top: 100px;
-    font-size: 30px;
+  text-align: center;
+  width: 54%;
+  padding-top: 100px;
+  font-size: 30px;
 }
 
 #choices > a {
-    background: none;
+  background: none;
 }
 
 #header > #right-logo {
-    /* background: yellow; */
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-    padding-bottom: 20px;
-    width: 23%;
+  /* background: yellow; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  width: 23%;
 }
 
 #header > #right-logo img {
-    width: 190px;
+  width: 190px;
 }
 
-
 @media (max-width: 1200px) {
-    #header-container {
-        background: unset;
-        height: 110px;
-        width: 100%;
-        padding: unset;
-    }
+  #header-container {
+    background: unset;
+    height: 110px;
+    width: 100%;
+    padding: unset;
+  }
 
-    #header {
-        display: block;
-        position: fixed;
-        left: 0px;
-        top: 0px;
-        width: 100%;
-        height: 110px;
-        margin: 0px;
-        min-width: unset;
-    }
+  #header {
+    display: block;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 110px;
+    margin: 0px;
+    min-width: unset;
+  }
 
-    #header > #left-logo {
-        display: block;
-        height: unset;
-        /* width: auto; */
-        background: none;
-        min-width: unset;
-        margin: 30px 0px 0 0;
-        width: 50%;
-        text-align: end;
-        font-size: 30px;
-    }
+  #header > #left-logo {
+    display: block;
+    height: unset;
+    /* width: auto; */
+    background: none;
+    min-width: unset;
+    margin: 30px 0px 0 0;
+    width: 50%;
+    text-align: end;
+    font-size: 30px;
+  }
 
-    #header > #left-logo > a {
-        margin-right: 31px;
-    }
+  #header > #left-logo > a {
+    margin-right: 31px;
+  }
 
-    #header > #choices {
-        justify-content: center;
-        text-align: center;
-        width: 100%;
-        min-width: unset;
-        background: none;
-        margin-top: unset;
-        font-size: 1.13rem;
-        padding-top: unset;
-    }
+  #header > #choices {
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    min-width: unset;
+    background: none;
+    margin-top: unset;
+    font-size: 1.13rem;
+    padding-top: unset;
+  }
 
-    #header > #right-logo {
-        position: absolute;
-        top: 0px;
-        right: 0px;
-        margin: 13px 0 0 0;
-        display: flex;
-        align-items: unset;
-        justify-content: unset;
-        background: none;
-        padding-bottom: unset;
-        width: 50%;
-        min-width: unset;
-    }
+  #header > #right-logo {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    margin: 13px 0 0 0;
+    display: flex;
+    align-items: unset;
+    justify-content: unset;
+    background: none;
+    padding-bottom: unset;
+    width: 50%;
+    min-width: unset;
+  }
 
-    #header > #right-logo img {
-        margin-left: 66px;
-        width: 100px;
-    }
+  #header > #right-logo img {
+    margin-left: 66px;
+    width: 100px;
+  }
 }
