@@ -1,0 +1,15 @@
+@font-face {
+    font-family: MonumentExt;
+    src: url("assets/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: MonumentExt;
+}
+
+p {
+    letter-spacing: 3px;
+}
