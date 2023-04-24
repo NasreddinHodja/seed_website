@@ -14,12 +14,16 @@ a {
 }
 
 #content {
-  display: flex;
   background: black;
-  width: 100%;
   min-width: 1100px;
   font-size: 20px;
   margin: 160px 0 60px 0;
+  padding: 5% 8% 0 8%;
+}
+
+#top-row {
+  display: flex;
+  margin-bottom: 100px;
 }
 
 #content h1 {
@@ -27,14 +31,12 @@ a {
 }
 
 #description {
-  padding: 5% 0 0 8%;
   width: 40%;
 }
 
 #picture {
   display: flex;
   justify-content: flex-end;
-  padding: 5% 8% 0 0;
   width: 60%;
 }
 
@@ -42,17 +44,13 @@ a {
   display: flex;
   background: var(--green);
   padding: 3px;
-  height: 500px;
+  height: 550px;
   /* height: 100%; */
   /* width: 50%; */
 }
 
 #picture-frame > a > img {
-  height: 500px;
-}
-
-#picture-frame > a {
-  /* background: var(--green); */
+  height: 550px;
 }
 
 #picture-button {
@@ -115,6 +113,15 @@ a {
   }
 }
 
+
+/* ========= GALERY =========  */
+
+#lineup {
+  width: 40%;
+  margin: 30px auto 50px auto;
+  text-align: center;
+}
+
 #galery-content {
   display: block;
   width: 100%;
@@ -156,6 +163,9 @@ a {
 }
 
 @media (max-width: 1200px) {
+  #lineup {
+    width: 100%;
+  }
   #galery-content {
     min-width: unset;
     background: black;
