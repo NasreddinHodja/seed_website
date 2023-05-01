@@ -1,0 +1,73 @@
+@import "../header.css";
+@import "../defaults.css";
+
+#header-container {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  background: black;
+}
+
+#content {
+  padding-top: 270px;
+  width: 100%;
+  min-width: 900px;
+  font-size: 20px;
+  color: white;
+}
+
+#flex-wrapper {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  max-width: 1200px;
+  margin: 80px auto 0 auto;
+  gap: 100px 70px;
+}
+
+.member {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  /* height: 270px; */
+}
+
+.member a:hover {
+  color: var(--green);
+}
+
+@media (max-width: 1200px) {
+  #content {
+    min-width: unset;
+    padding-top: 140px;
+  }
+
+  #flex-wrapper {
+    display: block;
+    margin-top: unset;
+    /* flex-direction: row; */
+    /* align-content: center; */
+    /* justify-content: space-evenly; */
+    /* flex-wrap: wrap; */
+    max-width: unset;
+    width: 100%;
+    /* margin: 80px auto 0 auto; */
+    /* background: red; */
+  }
+
+  .member {
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* height: 270; */
+    align-items: center;
+    width: 90%;
+    margin: 10px auto 0 auto;
+  }
+}
