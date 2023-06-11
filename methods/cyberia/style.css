@@ -62,14 +62,20 @@ a {
   justify-content: center;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1600px) {
   #content {
     display: block;
     background: black;
     width: 100%;
     min-width: unset;
     font-size: 18px;
+    margin: unset;
+    padding: unset;
     margin-top: 120px;
+  }
+
+  #top-row {
+    display: block;
   }
 
   #description {
