@@ -49,3 +49,47 @@ h1 {
   width: 70%;
   margin: auto;
 }
+
+@media (max-width: 1200px) {
+  #lineup {
+    width: 100%;
+  }
+
+  #content {
+    min-width: unset;
+    background: black;
+    width: 100%;
+    font-size: 20px;
+    padding: unset;
+    margin-top: 120px;
+  }
+
+  #content > h1 {
+    color: var(--green);
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding: unset;
+    padding-bottom: 1rem;
+    margin: unset;
+  }
+
+  #content > #flyer {
+    margin: auto;
+    margin-bottom: 1rem;
+    width: 100%;
+    background: blue;
+  }
+
+  #content > #flyer > img {
+    width: 100%;
+    background: blue;
+  }
+
+  #yt-video > iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    margin: auto;
+  }
+}
