@@ -1,0 +1,51 @@
+@import "../../../header.css";
+@import "../../../defaults.css";
+
+#header-container {
+  background: black;
+}
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content {
+  background: black;
+  min-width: 1100px;
+  font-size: 20px;
+  margin: 100px 0 100px 0;
+  padding: 5% 8% 0 8%;
+}
+
+h1 {
+  color: var(--green);
+  margin-bottom: 40px;
+}
+
+#lineup {
+  text-align: center;
+}
+
+#flyer {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+#flyer img {
+  width: 100%;
+}
+
+#yt-video {
+  margin-top: 50px;
+}
+
+#yt-video > iframe {
+  display: block;
+  width: 70%;
+  margin: auto;
+}

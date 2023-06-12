@@ -30,23 +30,19 @@ a {
 #galery-content > h1 {
   color: var(--green);
   padding: 10px 0 20px 8%;
-  /* background: blue; */
 }
 
 #galery-content > #flyer {
   margin: auto;
   width: 50%;
-  background: blue;
 }
 
 #galery-content > #flyer img {
   width: 100%;
-  background: blue;
 }
 
 #grid-container {
   width: 1250px;
-  /* background: blue; */
   margin: auto;
   margin-top: 80px;
   display: grid;
