@@ -1,0 +1,103 @@
+@import "../../header.css";
+@import "../../defaults.css";
+
+:root {
+  --mp4: #88c070;
+  --jpg: #f7caac;
+  --gif: #ff9494;
+  --png: #a894f2;
+  --mp4: #95d8e8;
+  --instalacao: #ffcc5c;
+  --performance: #e56db1;
+  --txt: #6bb27d;
+  --rar: #c58c85;
+  --wav: #7c9bc5;
+  --zip: #ffa500;
+}
+
+#header-container {
+  background: black;
+}
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content {
+  background: black;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin-top: 180px;
+  display: flex;
+  flex-direction: column;
+}
+
+#artists {
+  text-align: center;
+}
+
+#artists > p {
+  font-style: italic;
+}
+
+#artists > h1 {
+  color: var(--green);
+}
+
+#artists > h3 {
+  color: var(--green);
+}
+
+#rooms {
+  width: 90%;
+  margin: auto;
+  margin-top: 80px;
+}
+
+#rooms h1 {
+  background: var(--green);
+  color: black;
+}
+
+.room {
+  margin-top: 20px;
+}
+
+.pieces {
+  margin-top: 10px;
+}
+
+.artist-name {
+  font-weight: bold;
+}
+
+.piece {
+  margin-left: 50px;
+  margin-top: 8px;
+}
+
+.piece a {
+  font-style: italic;
+  color: blue;
+  text-decoration: underline;
+}
+
+.gif {
+  background-color: var(--gif);
+  color: black;
+}
+
+.mp4 {
+  background-color: var(--mp4);
+  color: black;
+}
+
+.jpg {
+  background-color: var(--jpg);
+  color: black;
+}
