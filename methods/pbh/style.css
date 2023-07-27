@@ -35,37 +35,50 @@ a {
   margin-top: 180px;
   display: flex;
   flex-direction: column;
+  padding-bottom: 200px;
 }
 
-#artists {
-  text-align: center;
-}
-
-#artists > p {
-  font-style: italic;
-}
-
-#artists > h1 {
-  color: var(--green);
-}
-
-#artists > h3 {
-  color: var(--green);
-}
-
-#rooms {
-  width: 90%;
+#description {
+  width: 70%;
   margin: auto;
   margin-top: 80px;
 }
 
-#rooms h1 {
-  background: var(--green);
-  color: black;
+#description h1 {
+  color: var(--green);
+}
+
+#description p {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-top: 10px;
+  color: var(--green) !important;
+}
+
+li a {
+  color: var(--green) !important;
+}
+
+li::before {
+  content: '_';
+  padding-right: 5px;
+}
+
+.bold {
+  font-weight: 800;
+  color: var(--green);
 }
 
 .room {
   margin-top: 20px;
+  margin: auto;
+  width: 90%
 }
 
 .pieces {
@@ -100,4 +113,25 @@ a {
 .jpg {
   background-color: var(--jpg);
   color: black;
+}
+
+@media (max-width: 1200px) {
+  #content {
+    margin-top: 120;
+    min-width: unset;
+    width: unset;
+  }
+
+  #description {
+    margin-top: unset;
+    width: 95%;
+  }
+
+  #description h1 {
+    font-size: medium;
+  }
+
+  #description p {
+    font-size: small;
+  }
 }
