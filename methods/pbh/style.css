@@ -27,6 +27,10 @@ a {
   text-decoration: none;
 }
 
+h2 {
+  color: var(--green);
+}
+
 #content {
   background: black;
   width: 100%;
@@ -48,7 +52,7 @@ a {
   color: var(--green);
 }
 
-#description p {
+#description p, .room p {
   margin-top: 20px;
 }
 
@@ -78,20 +82,49 @@ li::before {
 .room {
   margin-top: 20px;
   margin: auto;
-  width: 90%
+  width: 90%;
+  flex-direction: column;
+  display: flex;
+}
+
+/* .room img {
+  margin: auto;
+  padding-top: 100px;
+  padding-bottom: 100px;
+} */
+
+figure {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  text-align: center; /* Center the image and caption */
+  margin: 0 auto; /* Center the container */
+}
+
+figure img {
+  max-width: 100%;
+}
+
+figcaption {
+  font-style: italic;
+  color: #666;
+  font-size: 14px;
+  margin-top: 15px;
 }
 
 .pieces {
   margin-top: 10px;
+  max-width: 100%;
 }
 
 .artist-name {
   font-weight: bold;
+  max-width: 100%;
 }
 
 .piece {
   margin-left: 50px;
   margin-top: 8px;
+  max-width: 100%;
 }
 
 .piece a {
@@ -133,5 +166,9 @@ li::before {
 
   #description p {
     font-size: small;
+  }
+
+  .room {
+    font-size: small
   }
 }
