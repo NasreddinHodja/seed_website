@@ -2,17 +2,69 @@
 @import "../../defaults.css";
 
 :root {
-  --mp4: #88c070;
-  --jpg: #f7caac;
+  --pdf: #f6b26b;
+  --video: #88c070;
+  --audio: #7c9bc5;
+  --img: #a894f2;
   --gif: #ff9494;
-  --png: #a894f2;
-  --mp4: #95d8e8;
-  --instalacao: #ffcc5c;
-  --performance: #e56db1;
   --txt: #6bb27d;
-  --rar: #c58c85;
-  --wav: #7c9bc5;
-  --zip: #ffa500;
+  --dir: #ffa500;
+  --installation: #ffcc5c;
+  --performance: #e56db1;
+}
+
+.pdf {
+  background-color: var(--pdf);
+  padding: 0 3px 0 3px;
+  color: black;
+}
+
+.video {
+  background-color: var(--video);
+  padding: 0 3px 0 3px;
+  color: black;
+}
+
+.audio {
+  background-color: var(--audio);
+  padding: 0 3px 0 3px;
+  color: black;
+}
+
+.img {
+  background-color: var(--img);
+  padding: 0 3px 0 3px;
+  color: black;
+}
+
+.gif {
+  background-color: var(--gif);
+  padding: 0 3px 0 3px;
+  color: black;
+}
+
+.dir {
+  background-color: var(--dir);
+  padding: 0 3px 0 3px;
+  color: black;
+}
+
+.txt {
+  background-color: var(--txt);
+  padding: 0 3px 0 3px;
+  color: black;
+}
+
+.installation {
+  background-color: var(--installation);
+  padding: 0 3px 0 3px;
+  color: black;
+}
+
+.performance {
+  background-color: var(--performance);
+  padding: 0 3px 0 3px;
+  color: black;
 }
 
 #header-container {
@@ -85,6 +137,7 @@ li::before {
   width: 90%;
   flex-direction: column;
   display: flex;
+  align-items: flex-start;
 }
 
 /* .room img {
@@ -123,7 +176,6 @@ figcaption {
 
 .piece {
   margin-left: 50px;
-  margin-top: 8px;
   max-width: 100%;
 }
 
@@ -133,19 +185,27 @@ figcaption {
   text-decoration: underline;
 }
 
-.gif {
-  background-color: var(--gif);
-  color: black;
+#login-block {
+  margin: 50px 0 50px 0;
+  padding: 30px;
+  border: 5px solid var(--green);
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 10px;
 }
 
-.mp4 {
-  background-color: var(--mp4);
-  color: black;
+#login-block div {
+  color: var(--green);
 }
 
-.jpg {
-  background-color: var(--jpg);
-  color: black;
+#login-block .prompt {
+  margin-bottom: 10px;
+}
+
+#login-block .field {
+  margin-left: 25px;
 }
 
 @media (max-width: 1200px) {
@@ -170,5 +230,13 @@ figcaption {
 
   .room {
     font-size: small
+  }
+
+  figure {
+    padding: 30px 0 30px 0;
+  }
+
+  #login-block {
+    margin: 30px 0 10px 10px;
   }
 }
