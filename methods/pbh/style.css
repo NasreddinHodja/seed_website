@@ -79,7 +79,7 @@ a {
   text-decoration: none;
 }
 
-h2 {
+h2, h3, h4 {
   color: var(--green);
 }
 
@@ -211,6 +211,15 @@ figcaption {
 
 #hivemind {
   margin-top: 70px;
+}
+
+.credits {
+  padding-left: 30px;
+  border-left: solid var(--green);
+}
+
+.credits > p {
+  font-style: italic;
 }
 
 @media (max-width: 1200px) {
