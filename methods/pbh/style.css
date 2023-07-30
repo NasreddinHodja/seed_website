@@ -121,6 +121,10 @@ li a {
   color: var(--green) !important;
 }
 
+li a:hover {
+  text-decoration: underline;
+}
+
 li::before {
   content: '_';
   padding-right: 5px;
