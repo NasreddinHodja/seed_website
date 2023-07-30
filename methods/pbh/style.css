@@ -208,6 +208,10 @@ figcaption {
   margin-left: 25px;
 }
 
+#hivemind {
+  margin-top: 70px;
+}
+
 @media (max-width: 1200px) {
   #content {
     margin-top: 120;
