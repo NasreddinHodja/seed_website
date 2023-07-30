@@ -140,11 +140,12 @@ li::before {
   align-items: flex-start;
 }
 
-/* .room img {
+.room > img {
   margin: auto;
-  padding-top: 100px;
-  padding-bottom: 100px;
-} */
+  max-width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
 
 figure {
   padding-top: 100px;
@@ -234,6 +235,11 @@ figcaption {
 
   .room {
     font-size: small
+  }
+
+  .room > img {
+    padding-top: 20px;
+    padding-bottom: 10px;
   }
 
   figure {
