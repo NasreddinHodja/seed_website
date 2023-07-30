@@ -148,8 +148,8 @@ li::before {
 }
 
 figure {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding-top: 70px;
+  padding-bottom: 0px;
   text-align: center; /* Center the image and caption */
   margin: 0 auto; /* Center the container */
 }
@@ -166,7 +166,7 @@ figcaption {
 }
 
 .pieces {
-  margin-top: 10px;
+  margin-top: 70px;
   max-width: 100%;
 }
 
