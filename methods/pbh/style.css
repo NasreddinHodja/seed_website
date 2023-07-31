@@ -154,7 +154,7 @@ li a {
   text-decoration: underline;
 }
 
-li::before {
+li a::before {
   content: '_';
   padding-right: 5px;
 }

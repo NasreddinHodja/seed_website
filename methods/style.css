@@ -28,7 +28,7 @@ ul {
   list-style: none;
 }
 
-ul > li::before {
+ul > li > a::before {
   content: "_";
   color: var(--green);
 }
