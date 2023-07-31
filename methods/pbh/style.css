@@ -83,28 +83,60 @@ h2, h3, h4 {
   color: var(--green);
 }
 
-#content {
+.content {
   background: black;
   width: 100%;
   min-width: 1100px;
   font-size: 20px;
-  margin-top: 180px;
+  /* display: none; */
   display: flex;
   flex-direction: column;
   padding-bottom: 200px;
 }
 
-#description {
+#pt:checked ~ .content[data-lang=pt] {
+  display: flex;
+}
+
+#en:checked ~ .content[data-lang=en] {
+  display: flex;
+}
+
+.lang-button {
+  position: absolute;
+  display: none;
+  top: 160px;
+}
+
+#pt-label {
+  position: absolute;
+  top: 200px;
+}
+
+#en-label {
+  position: absolute;
+  top: 200px;
+}
+
+#pt:checked ~ #pt-label {
+  display: none;
+}
+
+#en:checked ~ #en-label {
+  display: none;
+}
+
+.description {
   width: 70%;
   margin: auto;
   margin-top: 80px;
 }
 
-#description h1 {
+.description h1 {
   color: var(--green);
 }
 
-#description p, .room p {
+.description p, .room p {
   margin-top: 20px;
 }
 
@@ -227,22 +259,22 @@ figcaption {
 }
 
 @media (max-width: 1200px) {
-  #content {
+  .content {
     margin-top: 120;
     min-width: unset;
     width: unset;
   }
 
-  #description {
+  .description {
     margin-top: unset;
     width: 95%;
   }
 
-  #description h1 {
+  .description h1 {
     font-size: medium;
   }
 
-  #description p {
+  .description p {
     font-size: small;
   }
 
