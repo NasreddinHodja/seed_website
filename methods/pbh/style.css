@@ -75,6 +75,10 @@
   background: black;
 }
 
+a {
+  text-decoration: none;
+}
+
 h2, h3, h4 {
   color: var(--green);
 }
@@ -147,6 +151,7 @@ li {
 
 li a {
   color: var(--green) !important;
+  text-decoration: underline;
 }
 
 li::before {
