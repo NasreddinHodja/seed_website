@@ -89,7 +89,8 @@ h2, h3, h4 {
   min-width: 1100px;
   font-size: 20px;
   margin-top: 180px;
-  display: flex;
+  /* display: flex; */
+  display: none;
   flex-direction: column;
   padding-bottom: 200px;
 }
@@ -103,27 +104,22 @@ h2, h3, h4 {
 }
 
 .lang-button {
-  position: absolute;
   display: none;
-  top: 160px;
 }
 
-#pt-label {
-  position: absolute;
-  top: 200px;
-}
-
-#en-label {
-  position: absolute;
-  top: 200px;
+#pt-label, #en-label {
+  padding: 0 4px 0 4px;
+  color: var(--green);
 }
 
 #pt:checked ~ #pt-label {
-  display: none;
+  color: black;
+  background: var(--green);
 }
 
 #en:checked ~ #en-label {
-  display: none;
+  color: black;
+  background: var(--green);
 }
 
 .description {
