@@ -88,7 +88,7 @@ h2, h3, h4 {
   width: 100%;
   min-width: 1100px;
   font-size: 20px;
-  margin-top: 180px;
+  margin-top: 20px;
   /* display: flex; */
   display: none;
   flex-direction: column;
@@ -104,12 +104,18 @@ h2, h3, h4 {
 }
 
 .lang-button {
-  display: none;
+  visibility: hidden;
+  width: 0px;
+  margin-top: 180px;
 }
 
 #pt-label, #en-label {
-  padding: 0 4px 0 4px;
+  padding: 0 6px 0 6px;
   color: var(--green);
+}
+
+#en-label {
+  margin-left: -17px;
 }
 
 #pt:checked ~ #pt-label {
@@ -252,7 +258,6 @@ figcaption {
 
 @media (max-width: 1200px) {
   .content {
-    margin-top: 120px;
     min-width: unset;
     width: unset;
   }
@@ -285,5 +290,9 @@ figcaption {
 
   #login-block {
     margin: 30px 0 10px 10px;
+  }
+
+  .lang-button {
+    margin-top: 120px;
   }
 }
