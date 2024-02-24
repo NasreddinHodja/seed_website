@@ -1,0 +1,48 @@
+@import "../../header.css";
+@import "../../defaults.css";
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content {
+  margin: auto;
+  padding: 20px;
+  background: black;
+  max-width: 800px;
+  font-size: 20px;
+  margin-top: 220px;
+}
+
+#video {
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 40%;
+  margin-top: 50px;
+}
+
+h3 {
+  color: var(--green);
+}
+
+ul {
+  padding-top: 10%;
+  list-style: none;
+}
+
+ul > li::before {
+  content: "_";
+  color: var(--green);
+}
+
+@media (max-width: 1200px) {
+  #content {
+    min-width: unset;
+    margin-top: 150px;
+  }
+}
