@@ -1,43 +1,53 @@
-@import "defaults.css";
+@import "./header.css";
+@import "./defaults.css";
 
-a {
-  text-decoration: none;
+* {
   background: black;
 }
 
-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* overflow: hidden; */
-  height: 100%;
-}
-
-video {
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: -1;
-  min-width: 100%;
-  min-height: 100%;
-}
-
-a {
+#header > #choices {
   background: none;
 }
 
-#home-button {
-  height: 495px;
-  width: 840px;
-  background-image: url("./assets/access.gif");
-  background-size: cover;
-  background-position: center center;
+#header {
+  background: none;
 }
 
-@media (max-width: 840px) {
-  #home-button {
-    width: 330px;
-    height: 300px;
-    background-image: url("./assets/access.gif");
+body {
+  overflow: hidden;
+}
+
+a {
+  text-decoration: none;
+  background: none;
+}
+
+video {
+  display: block;
+  margin: auto;
+  margin-top: 70px;
+  height: 100%;
+  width: 100%;
+}
+
+#footer {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  font-size: 12px;
+}
+
+#footer > a {
+  /* color: var(--green); */
+  color: rgba(174, 215, 149, 0.3);
+}
+
+@media (max-width: 1200px) {
+  video {
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+    height: 100%;
+    width: 100%;
   }
 }
