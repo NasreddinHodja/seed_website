@@ -1,6 +1,11 @@
 @import "../header.css";
 @import "../defaults.css";
 
+#header-container {
+  background: black;
+  z-index: 2;
+}
+
 * {
   background: black;
 }
@@ -17,14 +22,37 @@ a {
   margin-top: 160px;
 }
 
+#flyer {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+  margin-bottom: 100px;
+}
+
+.bold {
+  font-weight: 800;
+  color: var(--green);
+}
+
 #description {
   margin: 250px auto 50px auto;
   max-width: 1200px;
 }
 
-#description h1 {
+#description h1, h3 {
   color: var(--green);
   padding: 0 0 30px 0;
+}
+
+#seed-heart {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 50px;
+}
+
+#artists {
+  padding-left: 30px;
+  border-left: solid var(--green); 
 }
 
 #gallery {
@@ -34,7 +62,7 @@ a {
   flex-wrap: wrap;
   align-items: center;
   align-content: center;
-  gap: 5px;
+  gap: 10px;
   max-width: 1200px;
   max-height: 2000px;
 }
@@ -44,13 +72,97 @@ a {
   max-width: 400px;
 }
 
+.picture, .video {
+  position: relative;
+}
+
 .picture img {
   max-width: 100%;
+}
+
+.video-tag, .picture-tag, .model-tag {
+  padding: 3px 7px 3px 7px;
+}
+
+.video-tag {
+  display: none;
+  background-color: var(--video);
+  border: solid white;
+  font-size: small;
+}
+
+.picture-tag {
+  display: none;
+  background-color: var(--img);
+  border: solid white;
+  font-size: small;
+}
+
+.model-tag {
+  display: none;
+  background-color: var(--installation);
+  border: solid white;
+  font-size: small;
+}
+
+.video:hover > .video-tag {
+  display: block; 
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.picture:hover > .picture-tag {
+  display: block; 
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.model:hover > .model-tag {
+  display: block; 
+  position: absolute;
+  top: 3px;
+  right: 3px;
 }
 
 @media (max-width: 1200px) {
   #content {
     min-width: unset;
+    width: 100%;
   }
+
+  #gallery {
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+  }
+
+  #description {
+    margin-top: 30px;
+    font-size: small;
+  }
+
+  #description h1, h3 {
+    color: var(--green);
+    padding: 0 0 10px 0;
+  }
+
+  #flyer {
+    justify-content: center;
+    height: unset;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #flyer img {
+    width: 100%
+  }
+
+  #gallery a {
+    max-width: unset;
+    width: 100%;
+  }
+
 }
 

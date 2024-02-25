@@ -1,18 +1,6 @@
 @import "../../header.css";
 @import "../../defaults.css";
 
-:root {
-  --pdf: #f6b26b;
-  --video: #88c070;
-  --audio: #7c9bc5;
-  --img: #a894f2;
-  --gif: #ff9494;
-  --txt: #6bb27d;
-  --dir: #ffa500;
-  --installation: #ffcc5c;
-  --performance: #e56db1;
-}
-
 .pdf {
   background-color: var(--pdf);
   padding: 0 3px 0 3px;
