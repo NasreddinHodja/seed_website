@@ -1,0 +1,374 @@
+@import "../../header.css";
+@import "../../defaults.css";
+
+#header-container {
+  z-index: 2;
+}
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#header {
+  display: flex;
+}
+
+#description > a > h1:hover {
+  color: #abcf94;
+}
+
+#content {
+  background: black;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin-top: 160px;
+}
+
+#flyer > a {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+.bold {
+  font-weight: 800;
+  color: var(--green);
+}
+
+#description {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 250px auto 150px auto;
+  max-width: 1200px;
+  gap: 80px;
+}
+
+#description p, 
+#description h1, 
+#description h3, 
+#description a {
+  width: 100%;
+}
+
+#description h1, 
+#description h3 {
+  color: var(--green);
+  padding: 0 0 30px 0;
+}
+
+#dr-lolli-video {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#dr-lolli-video figcaption {
+  margin-top: 10px;
+  padding: 0 0 0 20px;
+  border-left: solid var(--green);
+}
+
+#video-caption {
+  font-size: smaller;
+}
+
+#seed-heart {
+  display: flex;
+  justify-content: center;
+}
+
+#artists {
+  width: 100%;
+}
+
+#artists-names {
+  padding-left: 25px;
+  border-left: solid var(--green); 
+  width: 100%;
+}
+
+#gallery {
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  max-width: 1200px;
+  max-height: 2000px;
+}
+
+#gallery a {
+  display: flex;
+  max-width: 400px;
+}
+
+.picture, .video {
+  position: relative;
+}
+
+.picture img {
+  max-width: 100%;
+}
+
+.video-tag, .picture-tag, .model-tag, .web-tag {
+  padding: 3px 7px 3px 7px;
+}
+
+.video-tag {
+  display: none;
+  background-color: var(--video);
+  border: solid white;
+  font-size: small;
+}
+
+.picture-tag {
+  display: none;
+  background-color: var(--img);
+  border: solid white;
+  font-size: small;
+}
+
+.web-tag {
+  display: none;
+  background-color: var(--performance);
+  border: solid white;
+  font-size: small;
+}
+
+.model-tag {
+  display: none;
+  background-color: var(--installation);
+  border: solid white;
+  font-size: small;
+}
+
+.video:hover > .video-tag {
+  display: block; 
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.picture:hover > .picture-tag {
+  display: block; 
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.picture:hover > .web-tag {
+  display: block; 
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.picture:hover > .picture-tag {
+  display: block; 
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.model:hover > .model-tag {
+  display: block; 
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+@media (max-width: 1200px) {
+  #header {
+    display: block;
+    background-color: black;
+  }
+
+  #content {
+    background: black;
+    width: 100%;
+    min-width: unset;
+    font-size: small;
+    margin-top: 20px;
+  }
+
+  .bold {
+    font-weight: 800;
+    color: var(--green);
+  }
+
+  #description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 130px auto 150px auto;
+    max-width: unset;
+    gap: 30px;
+  }
+
+  #description h1, 
+  #description h3 {
+    color: var(--green);
+    padding: unset;
+  }
+
+  #flyer {
+    justify-content: center;
+    height: unset;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  #flyer > a {
+    height: unset;
+  }
+
+  #flyer > a > img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+
+  #dr-lolli-video {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #dr-lolli-video video {
+    width: 100%;
+  }
+
+  #dr-lolli-video figcaption {
+    margin-top: 10px;
+    padding: 0 0 0 20px;
+    border-left: solid var(--green);
+  }
+
+  #artists-names {
+    padding: 0 0 0 30px;
+    border-left: solid var(--green); 
+    width: unset;
+  }
+
+  #gallery {
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    max-width: unset;
+    max-height: unset;
+    margin-top: -100px;
+  }
+
+  #gallery a {
+    display: flex;
+    max-width: unset;
+  }
+
+  .video-tag {
+    display: none;
+    background-color: var(--video);
+    border: solid white;
+    font-size: smaller;
+  }
+
+  .picture-tag {
+    font-size: smaller;
+  }
+
+  .web-tag {
+    font-size: smaller;
+  }
+
+  .model-tag {
+    font-size: small;
+  }
+
+  /* ---------------------------------------------------- */
+  /* #header-container {
+    width: 100%;
+    overflow: hidden;
+  }
+
+  #header {
+    display: block;
+    padding: 0;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 110px;
+    margin: 0px;
+    min-width: unset;
+    background: black;
+  }
+
+  #content {
+    min-width: unset;
+    width: 100%;
+    margin-top: 130px;
+  }
+
+  #description {
+    margin-top: 30px;
+    font-size: small;
+    gap: 20px;
+    margin: 100px 0 60px auto;
+  }
+
+  #description h1, 
+  #description h3 {
+    color: var(--green);
+    padding: 0 0 10px 0;
+  }
+
+  #dr-lolli-video {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+  }
+
+  #dr-lolli-video video {
+    width: 100%;
+  }
+
+  #dr-lolli-video figcaption {
+    margin-top: 10px;
+    padding: 0 0 0 20px;
+    border-left: solid var(--green);
+    width: 100%;
+  }
+
+  #artists {
+    width: unset;
+  }
+
+  #artists-names {
+    border-left: solid var(--green); 
+    width: unset;
+  }
+
+  #gallery {
+    max-width: unset;
+    max-height: unset;
+    width: 100%;
+
+  }
+
+  #gallery a {
+    max-width: unset;
+    width: 100%;
+  } */
+}
+
