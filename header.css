@@ -36,7 +36,6 @@
 }
 
 #header > #right-logo {
-  /* background: yellow; */
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;

@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+#header-container {
+  background: black;
+}
+
 #header {
   display: flex;
 }
@@ -85,6 +89,9 @@ a {
 
 #artists {
   width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
 }
 
 #artists-names {
@@ -295,80 +302,4 @@ a {
   .model-tag {
     font-size: small;
   }
-
-  /* ---------------------------------------------------- */
-  /* #header-container {
-    width: 100%;
-    overflow: hidden;
-  }
-
-  #header {
-    display: block;
-    padding: 0;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 110px;
-    margin: 0px;
-    min-width: unset;
-    background: black;
-  }
-
-  #content {
-    min-width: unset;
-    width: 100%;
-    margin-top: 130px;
-  }
-
-  #description {
-    margin-top: 30px;
-    font-size: small;
-    gap: 20px;
-    margin: 100px 0 60px auto;
-  }
-
-  #description h1, 
-  #description h3 {
-    color: var(--green);
-    padding: 0 0 10px 0;
-  }
-
-  #dr-lolli-video {
-    display: flex;
-    width: 100%;
-    justify-content: center;
-  }
-
-  #dr-lolli-video video {
-    width: 100%;
-  }
-
-  #dr-lolli-video figcaption {
-    margin-top: 10px;
-    padding: 0 0 0 20px;
-    border-left: solid var(--green);
-    width: 100%;
-  }
-
-  #artists {
-    width: unset;
-  }
-
-  #artists-names {
-    border-left: solid var(--green); 
-    width: unset;
-  }
-
-  #gallery {
-    max-width: unset;
-    max-height: unset;
-    width: 100%;
-
-  }
-
-  #gallery a {
-    max-width: unset;
-    width: 100%;
-  } */
 }
-

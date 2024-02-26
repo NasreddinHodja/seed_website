@@ -69,6 +69,12 @@ video {
   background: black;
 }
 
+.contact-link {
+  display: flex;
+  flex-direction: row;
+  background: blue;
+}
+
 @media (max-width: 1200px) {
   #content {
     background-size: cover;
@@ -77,6 +83,7 @@ video {
     min-width: unset;
     font-size: 20px;
     width: 100%;
+    font-size: smaller;
   }
 
   #panels-wrapper {

@@ -1,4 +1,9 @@
 @font-face {
+  font-family: Azeret;
+  src: url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+} 
+
+@font-face {
   font-family: MonumentExt;
   src: url("assets/monumentextended-freeforpersonaluse/MonumentExtended-FreeForPersonalUse/MonumentExtended-Regular.otf");
 }
@@ -18,11 +23,20 @@
 
 * {
   font-family: MonumentExt;
+  /* font-family: Azeret; */
+  font-optical-sizing: auto;
   margin: 0;
   padding: 0;
   color: white;
 }
 
-p {
-  letter-spacing: 3px;
+/* #TODO: change font to Azeret */
+
+/* p {
+  letter-spacing: 0.02em;
 }
+
+h1, h2, h3, #header, #left-logo > a, #choices > a, #right-logo {
+  font-family: MonumentExt;
+  letter-spacing: unset;
+} */

@@ -49,10 +49,11 @@ ul > li {
 
   #content {
     min-width: unset;
+    margin-top: 100px;
   }
 
   #content-choices {
-    font-size: 40px;
+    font-size: 30px;
     width: 420px;
     width: 95%;
     margin: auto;
