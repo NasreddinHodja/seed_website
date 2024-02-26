@@ -13,6 +13,10 @@ body {
   background: black;
 }
 
+.member > h2 > a {
+  color: var(--green);
+}
+
 #content {
   padding-top: 270px;
   width: 100%;
