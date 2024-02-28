@@ -34,12 +34,17 @@ video {
   position: fixed;
   bottom: 0;
   right: 0;
-  font-size: 12px;
+  font-size: 16px;
+  text-align: end;
+  color: #787878;
 }
 
-#footer > a {
-  /* color: var(--green); */
-  color: rgba(174, 215, 149, 0.3);
+#footer > p {
+  color: #787878;
+}
+
+#footer > p > a {
+  color: var(--green);
 }
 
 @media (max-width: 1200px) {
@@ -49,5 +54,9 @@ video {
     margin-top: 40px;
     height: 100%;
     width: 100%;
+  }
+
+  #footer {
+    font-size: 14px;
   }
 }
