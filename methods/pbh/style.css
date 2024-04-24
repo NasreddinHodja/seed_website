@@ -1,6 +1,10 @@
 @import "../../header.css";
 @import "../../defaults.css";
 
+p {
+  font-family: "Azeret Mono";
+}
+
 .pdf {
   background-color: var(--pdf);
   padding: 0 3px 0 3px;
@@ -67,7 +71,9 @@ a {
   text-decoration: none;
 }
 
-h2, h3, h4 {
+h2,
+h3,
+h4 {
   color: var(--green);
 }
 
@@ -82,11 +88,11 @@ h2, h3, h4 {
   padding-bottom: 70px;
 }
 
-#pt:checked ~ .content[data-lang=pt] {
+#pt:checked ~ .content[data-lang="pt"] {
   display: flex;
 }
 
-#en:checked ~ .content[data-lang=en] {
+#en:checked ~ .content[data-lang="en"] {
   display: flex;
 }
 
@@ -96,7 +102,8 @@ h2, h3, h4 {
   margin-top: 180px;
 }
 
-#pt-label, #en-label {
+#pt-label,
+#en-label {
   padding: 0 6px 0 6px;
   color: var(--green);
 }
@@ -124,7 +131,8 @@ h2, h3, h4 {
   color: var(--green);
 }
 
-.description p, .room p {
+.description p,
+.room p {
   margin-top: 20px;
 }
 
@@ -143,7 +151,7 @@ li a {
 }
 
 li a::before {
-  content: '_';
+  content: "_";
   padding-right: 5px;
 }
 
@@ -248,11 +256,11 @@ figcaption {
   margin-left: 17px;
   margin-bottom: 30px;
   text-decoration: underline;
-  color: var(--green)
+  color: var(--green);
 }
 
 .gallery-link::before {
-  content: '> ';
+  content: "> ";
 }
 
 .gallery {
@@ -307,7 +315,7 @@ figcaption {
   }
 
   .room {
-    font-size: small
+    font-size: small;
   }
 
   .room > img {

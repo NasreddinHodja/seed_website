@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: "Azeret Mono";
+}
+
 #content {
   background: black;
   min-width: 1100px;

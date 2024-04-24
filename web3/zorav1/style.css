@@ -13,6 +13,10 @@ a {
   text-decoration: none;
 }
 
+p {
+  font-family: "Azeret Mono";
+}
+
 #header-container {
   background: black;
 }
@@ -53,14 +57,14 @@ a {
   gap: 80px;
 }
 
-#description p, 
-#description h1, 
-#description h3, 
+#description p,
+#description h1,
+#description h3,
 #description a {
   width: 100%;
 }
 
-#description h1, 
+#description h1,
 #description h3 {
   color: var(--green);
   padding: 0 0 30px 0;
@@ -96,7 +100,7 @@ a {
 
 #artists-names {
   padding-left: 25px;
-  border-left: solid var(--green); 
+  border-left: solid var(--green);
   width: 100%;
 }
 
@@ -117,7 +121,8 @@ a {
   max-width: 400px;
 }
 
-.picture, .video {
+.picture,
+.video {
   position: relative;
 }
 
@@ -125,7 +130,10 @@ a {
   max-width: 100%;
 }
 
-.video-tag, .picture-tag, .model-tag, .web-tag {
+.video-tag,
+.picture-tag,
+.model-tag,
+.web-tag {
   padding: 3px 7px 3px 7px;
 }
 
@@ -158,35 +166,35 @@ a {
 }
 
 .video:hover > .video-tag {
-  display: block; 
+  display: block;
   position: absolute;
   top: 10px;
   right: 10px;
 }
 
 .picture:hover > .picture-tag {
-  display: block; 
+  display: block;
   position: absolute;
   top: 3px;
   right: 3px;
 }
 
 .picture:hover > .web-tag {
-  display: block; 
+  display: block;
   position: absolute;
   top: 3px;
   right: 3px;
 }
 
 .picture:hover > .picture-tag {
-  display: block; 
+  display: block;
   position: absolute;
   top: 3px;
   right: 3px;
 }
 
 .model:hover > .model-tag {
-  display: block; 
+  display: block;
   position: absolute;
   top: 3px;
   right: 3px;
@@ -220,7 +228,7 @@ a {
     gap: 30px;
   }
 
-  #description h1, 
+  #description h1,
   #description h3 {
     color: var(--green);
     padding: unset;
@@ -243,7 +251,6 @@ a {
     display: block;
   }
 
-
   #dr-lolli-video {
     display: flex;
     width: 100%;
@@ -262,7 +269,7 @@ a {
 
   #artists-names {
     padding: 0 0 0 30px;
-    border-left: solid var(--green); 
+    border-left: solid var(--green);
     width: unset;
   }
 

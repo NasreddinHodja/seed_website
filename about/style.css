@@ -62,6 +62,7 @@ video {
 
 .panel p {
   margin-top: 10px;
+  font-family: "Azeret Mono";
   background: black;
 }
 
@@ -69,10 +70,10 @@ video {
   background: black;
 }
 
-.contact-link {
-  display: flex;
-  flex-direction: row;
-  background: blue;
+#contacts a,
+#contacts p {
+  font-family: "Azeret Mono";
+  font-weight: bold;
 }
 
 @media (max-width: 1200px) {
