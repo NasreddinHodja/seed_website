@@ -122,6 +122,12 @@ h4 {
   background: var(--green);
 }
 
+#flyer {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
 .description {
   width: 70%;
   margin: auto;
@@ -299,6 +305,11 @@ figcaption {
   .content {
     min-width: unset;
     width: unset;
+  }
+
+  #flyer {
+    width: 100%;
+    padding-bottom: 40px;
   }
 
   .description {
