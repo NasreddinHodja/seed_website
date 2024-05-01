@@ -85,7 +85,7 @@ h4 {
   margin-top: 20px;
   display: none;
   flex-direction: column;
-  padding-bottom: 70px;
+  padding-bottom: 50px;
 }
 
 #pt:checked ~ .content[data-lang="pt"] {
@@ -126,6 +126,29 @@ h4 {
   width: 40%;
   margin: auto;
   padding-bottom: 50px;
+}
+
+#artifact-video {
+  width: 600px;
+  margin: auto;
+  padding-bottom: 100px;
+}
+
+#artifact-video > video {
+  width: 100%;
+}
+
+#artifact-video > a {
+  width: 100%;
+  background: var(--green);
+  font-size: 24px;
+  color: black;
+}
+
+#fujioka-video {
+  width: 800px;
+  margin: auto;
+  padding: 30px 0 30px 0;
 }
 
 .description {
@@ -310,6 +333,17 @@ figcaption {
   #flyer {
     width: 100%;
     padding-bottom: 40px;
+  }
+
+  #artifact-video {
+    width: 100%;
+    margin: auto;
+    padding-bottom: 100px;
+  }
+
+  #fujioka-video {
+    width: 100%;
+    padding: 10px 0 10px 0;
   }
 
   .description {
