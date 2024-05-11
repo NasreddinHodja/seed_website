@@ -1,0 +1,128 @@
+@import "../../../header.css";
+@import "../../../defaults.css";
+
+#header-container {
+  background: black;
+}
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+#content {
+  background: black;
+  min-width: 1100px;
+  font-size: 20px;
+  margin: 100px 0 100px 0;
+  padding: 5% 8% 0 8%;
+}
+
+h1 {
+  color: var(--green);
+  margin-bottom: 40px;
+}
+
+#lineup {
+  text-align: center;
+}
+
+#flyer {
+  margin: auto;
+  margin-top: 50px;
+  width: 50%;
+}
+
+#flyer img {
+  width: 100%;
+}
+
+#yt-video {
+  margin-top: 50px;
+}
+
+#yt-video > iframe {
+  display: block;
+  width: 70%;
+  margin: auto;
+}
+
+#grid-container {
+  width: 1250px;
+  margin: auto;
+  margin-top: 80px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.grid-item > img {
+  height: 200px;
+}
+
+@media (max-width: 1200px) {
+  #lineup {
+    width: 100%;
+  }
+
+  #content {
+    min-width: unset;
+    background: black;
+    width: 100%;
+    font-size: 20px;
+    padding: unset;
+    margin-top: 120px;
+  }
+
+  #content > h1 {
+    color: var(--green);
+    width: 100%;
+    font-size: 25px;
+    text-align: center;
+    padding: unset;
+    padding-bottom: 1rem;
+    margin: unset;
+  }
+
+  #content > #flyer {
+    margin: auto;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+    width: 100%;
+    background: blue;
+  }
+
+  #content > #flyer > img {
+    width: 100%;
+    background: blue;
+  }
+
+  #yt-video > iframe {
+    display: block;
+    width: 100%;
+    height: 450px;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  #grid-container {
+    display: grid;
+    margin-top: unset;
+    width: 100%;
+    grid-template-columns: 1fr;
+  }
+
+  .grid-item {
+    width: 100%;
+    margin: auto;
+  }
+
+  .grid-item > img {
+    height: unset;
+    width: 100%;
+  }
+}
