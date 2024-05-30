@@ -1,0 +1,319 @@
+@import "../../header.css";
+@import "../../defaults.css";
+
+#header-container {
+  z-index: 2;
+}
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Azeret Mono";
+}
+
+#header-container {
+  background: black;
+}
+
+#header {
+  display: flex;
+}
+
+#pt:checked ~ .content[data-lang="pt"] {
+  display: flex;
+}
+
+#en:checked ~ .content[data-lang="en"] {
+  display: flex;
+}
+
+.lang-button {
+  visibility: hidden;
+  width: 0px;
+  margin-top: 180px;
+}
+
+#pt-label,
+#en-label {
+  padding: 0 6px 0 6px;
+  color: var(--green);
+}
+
+#en-label {
+  margin-left: -17px;
+}
+
+#pt:checked ~ #pt-label {
+  color: black;
+  background: var(--green);
+}
+
+#en:checked ~ #en-label {
+  color: black;
+  background: var(--green);
+}
+
+#description > a > h1:hover {
+  color: #abcf94;
+}
+
+.content {
+  display: none;
+  flex-direction: column;
+  background: black;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.flyer {
+  width: 100%;
+}
+
+.flyer > a {
+  display: flex;
+  justify-content: center;
+  height: 700px;
+}
+
+.bold {
+  font-weight: 800;
+  color: var(--green);
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto 150px auto;
+  max-width: 1200px;
+  gap: 40px;
+}
+
+.description p,
+.description h1,
+.description h3,
+.description a {
+  width: 100%;
+}
+
+.description h1,
+.description h3 {
+  color: var(--green);
+  padding: 0 0 30px 0;
+}
+
+.artists {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.artists-names {
+  padding-left: 25px;
+  border-left: solid var(--green);
+  width: 100%;
+}
+
+.gallery {
+  margin: 0 auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  gap: 10px;
+  max-width: 1200px;
+  max-height: 3000px;
+}
+
+.gallery a {
+  display: flex;
+  max-width: 400px;
+}
+
+.picture,
+.video {
+  position: relative;
+}
+
+.picture img {
+  max-width: 100%;
+}
+
+.video-tag,
+.picture-tag,
+.model-tag,
+.web-tag {
+  padding: 3px 7px 3px 7px;
+}
+
+.video-tag {
+  display: none;
+  background-color: var(--video);
+  border: solid white;
+  font-size: small;
+}
+
+.picture-tag {
+  display: none;
+  background-color: var(--img);
+  border: solid white;
+  font-size: small;
+}
+
+.web-tag {
+  display: none;
+  background-color: var(--performance);
+  border: solid white;
+  font-size: small;
+}
+
+.model-tag {
+  display: none;
+  background-color: var(--installation);
+  border: solid white;
+  font-size: small;
+}
+
+.video:hover > .video-tag {
+  display: block;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+
+.picture:hover > .picture-tag {
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.picture:hover > .web-tag {
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.picture:hover > .picture-tag {
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+.model:hover > .model-tag {
+  display: block;
+  position: absolute;
+  top: 3px;
+  right: 3px;
+}
+
+@media (max-width: 1200px) {
+  #header {
+    display: block;
+    background-color: black;
+  }
+
+  .lang-button {
+    margin-top: 120px;
+  }
+
+  .content {
+    background: black;
+    width: 100%;
+    min-width: unset;
+    font-size: small;
+    margin-top: 20px;
+  }
+
+  .bold {
+    font-weight: 800;
+    color: var(--green);
+  }
+
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto 150px auto;
+    max-width: unset;
+    gap: 30px;
+  }
+
+  .description h1,
+  .description h3 {
+    color: var(--green);
+    padding: unset;
+  }
+
+  .flyer {
+    justify-content: center;
+    height: unset;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+
+  .flyer > a {
+    height: unset;
+    width: 100%;
+  }
+
+  .flyer > a > img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .artists-names {
+    padding: 0 0 0 30px;
+    border-left: solid var(--green);
+    width: unset;
+  }
+
+  .gallery {
+    margin: 0 auto 0 auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+    max-width: unset;
+    max-height: unset;
+    margin-top: -100px;
+  }
+
+  .gallery a {
+    display: flex;
+    max-width: unset;
+  }
+
+  .video-tag {
+    display: none;
+    background-color: var(--video);
+    border: solid white;
+    font-size: smaller;
+  }
+
+  .picture-tag {
+    font-size: smaller;
+  }
+
+  .web-tag {
+    font-size: smaller;
+  }
+
+  .model-tag {
+    font-size: small;
+  }
+}
