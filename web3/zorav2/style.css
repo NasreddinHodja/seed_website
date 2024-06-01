@@ -73,6 +73,18 @@ p {
   margin-top: 20px;
 }
 
+.onboarding-link {
+  display: flex;
+  margin-top: -45px;
+  margin-bottom: 40px;
+}
+
+.onboarding-link > a {
+  background: var(--green);
+  color: black;
+  padding: 0 6px 0 6px;
+}
+
 .flyer {
   width: 100%;
 }
@@ -254,6 +266,11 @@ p {
   .description h3 {
     color: var(--green);
     padding: unset;
+  }
+
+  .onboarding-link {
+    margin-top: unset;
+    margin-bottom: unset;
   }
 
   .flyer {

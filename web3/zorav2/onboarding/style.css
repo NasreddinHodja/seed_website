@@ -1,0 +1,123 @@
+@import "../../../header.css";
+@import "../../../defaults.css";
+
+#header-container {
+  z-index: 2;
+}
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Azeret Mono";
+}
+
+#header-container {
+  background: black;
+}
+
+#header {
+  display: flex;
+}
+
+#description > a > h1:hover {
+  color: #abcf94;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  background: black;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin-top: 160px;
+}
+
+.bold {
+  font-weight: 800;
+  color: var(--green);
+}
+
+.description {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px auto 150px auto;
+  max-width: 1200px;
+  width: 100%;
+  gap: 40px;
+}
+
+.video {
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 600px;
+}
+
+.description p,
+.description h1,
+.description h2,
+.description h3,
+.description a {
+  width: 100%;
+}
+
+.description h1,
+.description h2,
+.description h3 {
+  color: var(--green);
+}
+
+.description .link {
+  background: var(--green);
+  color: black;
+}
+
+@media (max-width: 1200px) {
+  #header {
+    display: block;
+    background-color: black;
+  }
+
+  .content {
+    background: black;
+    width: 100%;
+    min-width: unset;
+    font-size: small;
+    margin-top: 120px;
+  }
+
+  .bold {
+    font-weight: 800;
+    color: var(--green);
+  }
+
+  .description {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px auto 150px auto;
+    max-width: unset;
+    gap: 30px;
+  }
+
+  .description h1,
+  .description h2,
+  .description h3 {
+    color: var(--green);
+    padding: unset;
+  }
+
+  .video {
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 200px;
+  }
+}
