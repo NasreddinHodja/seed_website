@@ -30,6 +30,23 @@ video {
   width: 100%;
 }
 
+.contact-us {
+  position: fixed;
+  padding: 10px;
+  bottom: 0;
+  left: 0;
+  font-size: 16px;
+}
+
+#contacts > p > a,
+#contacts > p {
+  color: #787878;
+}
+
+.contact-us h1 {
+  color: var(--green);
+}
+
 #footer {
   position: fixed;
   bottom: 0;
@@ -54,6 +71,15 @@ video {
     margin-top: 40px;
     height: 100%;
     width: 100%;
+  }
+
+  .contact-us {
+    position: fixed;
+    padding: 10px;
+    bottom: 30px;
+    left: 0;
+    font-size: 14px;
+    background: none;
   }
 
   #footer {

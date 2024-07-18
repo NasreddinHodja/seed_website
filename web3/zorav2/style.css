@@ -73,20 +73,29 @@ p {
   margin-top: 20px;
 }
 
-.video {
+.gallery-content {
+  flex-direction: column;
+  background: black;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin-top: 220px;
+}
+
+.aftermovie {
   display: block;
   margin: auto;
   width: 70%;
   height: 600px;
 }
 
-.onboarding-link {
+.link {
   display: flex;
   margin-top: -45px;
   margin-bottom: 40px;
 }
 
-.onboarding-link > a {
+.link > a {
   background: var(--green);
   color: black;
   padding: 0 6px 0 6px;
@@ -255,6 +264,14 @@ p {
     margin-top: 20px;
   }
 
+  .gallery-content {
+    background: black;
+    width: 100%;
+    min-width: unset;
+    font-size: small;
+    margin-top: 20px;
+  }
+
   .bold {
     font-weight: 800;
     color: var(--green);
@@ -275,7 +292,7 @@ p {
     padding: unset;
   }
 
-  .onboarding-link {
+  .link {
     margin-top: unset;
     margin-bottom: unset;
   }
