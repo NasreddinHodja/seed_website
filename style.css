@@ -49,8 +49,8 @@ video {
 
 #footer {
   position: fixed;
-  bottom: 0;
-  right: 0;
+  bottom: 10px;
+  right: 10px;
   font-size: 16px;
   text-align: end;
   color: #787878;
@@ -78,11 +78,19 @@ video {
     padding: 10px;
     bottom: 30px;
     left: 0;
-    font-size: 14px;
+    font-size: 12px;
     background: none;
   }
 
+  .contact-us h1 {
+    font-size: 16px;
+  }
+
   #footer {
-    font-size: 14px;
+    font-size: 12px;
+    text-align: left;
+    right: unset;
+    left: 10px;
+    bottom: 0px;
   }
 }
