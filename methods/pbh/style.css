@@ -128,6 +128,10 @@ h4 {
   padding-bottom: 50px;
 }
 
+#flyer > img {
+  width: 100%;
+}
+
 #artifact-video {
   width: 600px;
   margin: auto;
