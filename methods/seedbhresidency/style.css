@@ -1,0 +1,178 @@
+@import "../../header.css";
+@import "../../defaults.css";
+
+p {
+  font-family: "Azeret Mono";
+}
+
+#header-container {
+  background: black;
+}
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+h2,
+h3,
+h4 {
+  color: var(--green);
+}
+
+.aftermovie {
+  display: block;
+  margin: auto;
+  width: 70%;
+  height: 600px;
+}
+
+#aftermovie-link {
+  background: var(--green);
+  color: black;
+}
+
+#flyer {
+  width: 40%;
+  margin: auto;
+  padding-bottom: 50px;
+}
+
+.content {
+  background: black;
+  width: 100%;
+  min-width: 1100px;
+  font-size: 20px;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+
+.description {
+  width: 70%;
+  margin: auto;
+}
+
+.description h1 {
+  color: var(--green);
+}
+
+.description p,
+.room p {
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  margin-top: 10px;
+  color: var(--green) !important;
+}
+
+li a {
+  color: var(--green) !important;
+  text-decoration: underline;
+}
+
+li a::before {
+  content: "_";
+  padding-right: 5px;
+}
+
+.bold {
+  font-weight: 800;
+  color: var(--green);
+}
+
+.credits {
+  padding-left: 30px;
+  border-left: solid var(--green);
+}
+
+.credits > p {
+  font-style: italic;
+}
+
+.gallery {
+  max-width: 1250px;
+  margin: auto;
+  margin-top: 40px;
+  margin-bottom: 200px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 1rem;
+  column-gap: 1rem;
+}
+
+.picture {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 400px;
+  /* height: 100%; */
+  border: 1px solid var(--green);
+}
+
+.picture img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+
+@media (max-width: 1200px) {
+  .content {
+    margin-top: 120px;
+    min-width: unset;
+    width: unset;
+  }
+
+  #flyer {
+    width: 100%;
+    padding-bottom: 40px;
+  }
+
+  .aftermovie {
+    display: block;
+    margin: auto;
+    width: 70%;
+    height: 200px;
+  }
+
+  .description {
+    margin-top: unset;
+    width: 95%;
+  }
+
+  .description h1 {
+    font-size: medium;
+  }
+
+  .description p {
+    font-size: small;
+  }
+
+  .gallery {
+    display: grid;
+    margin-top: unset;
+    width: 95%;
+    grid-template-columns: 1fr;
+  }
+
+  .gallery-title {
+    width: 95%;
+    max-width: 400px;
+    margin-top: 125px;
+    margin-bottom: 15px;
+    font-size: medium;
+  }
+
+  .picture {
+    border: none;
+  }
+}
