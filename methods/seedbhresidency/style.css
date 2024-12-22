@@ -36,9 +36,14 @@ h4 {
 }
 
 #flyer {
-  width: 40%;
-  margin: auto;
+  width: 100%;
+  display: flex;
   padding-bottom: 50px;
+}
+
+#flyer > img {
+  width: 30%;
+  margin: auto;
 }
 
 .content {
@@ -133,8 +138,11 @@ li a::before {
   }
 
   #flyer {
-    width: 100%;
     padding-bottom: 40px;
+  }
+
+  #flyer > img {
+    width: 100%;
   }
 
   .aftermovie {
