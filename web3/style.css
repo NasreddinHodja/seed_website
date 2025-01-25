@@ -30,7 +30,7 @@ ul {
 
 ul > li > a::before {
   content: "_";
-  color: var(--green);
+  color: var(--accent);
 }
 
 ul > li {
@@ -38,15 +38,10 @@ ul > li {
 }
 
 #content-choices a {
-  color: var(--green);
+  color: var(--accent);
 }
 
 @media (max-width: 1200px) {
-  /* #header-container { */
-  /*     border-bottom: solid 2px; */
-  /*     border-color: var(--green); */
-  /* } */
-
   #content {
     min-width: unset;
     margin-top: 100px;

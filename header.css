@@ -24,6 +24,10 @@
   padding-bottom: 8px;
 }
 
+#header > #left-logo > a {
+  color: var(--accent);
+}
+
 #header > #choices {
   text-align: center;
   width: 54%;
@@ -33,6 +37,7 @@
 
 #choices > a {
   background: none;
+  color: var(--accent);
 }
 
 #header > #right-logo {
@@ -40,11 +45,12 @@
   justify-content: flex-end;
   align-items: flex-end;
   padding-bottom: 20px;
-  width: 23%;
+  width: 15%;
+  /* background: red; */
 }
 
 #header > #right-logo img {
-  width: 190px;
+  width: 150px;
 }
 
 @media (max-width: 1200px) {

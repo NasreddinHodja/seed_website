@@ -37,11 +37,11 @@ p {
 }
 
 #merch-content h1 {
-  color: var(--green);
+  color: var(--accent);
 }
 
 #merch-content a {
-  background: var(--green);
+  background: var(--accent);
   color: black;
 }
 
@@ -77,7 +77,7 @@ p {
 }
 
 #content h1 {
-  color: var(--green);
+  color: var(--accent);
 }
 
 #description {
@@ -92,18 +92,18 @@ p {
 
 #picture-frame {
   display: flex;
-  background: var(--green);
+  background: var(--accent);
   padding: 3px;
-  height: 550px;
+  height: 450px;
 }
 
 #picture-frame > a > img {
-  height: 550px;
+  height: 450px;
 }
 
 #picture-button {
   display: flex;
-  background: var(--green);
+  background: var(--accent);
   color: black;
   width: 50%;
   padding: 250px 10px 0 10px;
@@ -116,10 +116,10 @@ p {
 }
 
 #cyb-list a {
-  color: var(--green);
+  color: var(--accent);
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1500px) {
   #content {
     display: block;
     background: black;
@@ -192,23 +192,25 @@ p {
 
   #picture-frame {
     display: flex;
-    background: var(--green);
+    background: var(--accent);
     height: unset;
-    width: 100%;
+    /* width: 100%; */
+    width: 500px;
   }
 
   #picture-frame > a > img {
     height: unset;
-    width: 100%;
+    /* width: 100%; */
+    width: 500px;
   }
 
   #picture-frame > a {
-    background: var(--green);
+    background: var(--accent);
   }
 
   #picture-button {
     display: flex;
-    background: var(--green);
+    background: var(--accent);
     color: black;
     /* height: 100%; */
     padding: 0 10px 0 10px;

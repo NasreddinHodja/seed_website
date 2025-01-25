@@ -27,7 +27,7 @@ a {
 }
 
 h3 {
-  color: var(--green);
+  color: var(--accent);
 }
 
 ul {
@@ -37,7 +37,11 @@ ul {
 
 ul > li::before {
   content: "_";
-  color: var(--green);
+  color: var(--foreground);
+}
+
+ul > li > a {
+  color: var(--accent);
 }
 
 @media (max-width: 1200px) {

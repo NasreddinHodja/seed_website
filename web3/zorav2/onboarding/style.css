@@ -41,7 +41,7 @@ p {
 
 .bold {
   font-weight: 800;
-  color: var(--green);
+  color: var(--accent);
 }
 
 .description {
@@ -71,11 +71,11 @@ p {
 .description h1,
 .description h2,
 .description h3 {
-  color: var(--green);
+  color: var(--accent);
 }
 
 .description .link {
-  background: var(--green);
+  background: var(--accent);
   color: black;
 }
 
@@ -95,7 +95,7 @@ p {
 
   .bold {
     font-weight: 800;
-    color: var(--green);
+    color: var(--accent);
   }
 
   .description {
@@ -110,7 +110,7 @@ p {
   .description h1,
   .description h2,
   .description h3 {
-    color: var(--green);
+    color: var(--accent);
     padding: unset;
   }
 

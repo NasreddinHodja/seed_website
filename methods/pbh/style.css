@@ -74,7 +74,7 @@ a {
 h2,
 h3,
 h4 {
-  color: var(--green);
+  color: var(--accent);
 }
 
 .content {
@@ -105,7 +105,7 @@ h4 {
 #pt-label,
 #en-label {
   padding: 0 6px 0 6px;
-  color: var(--green);
+  color: var(--accent);
 }
 
 #en-label {
@@ -114,12 +114,12 @@ h4 {
 
 #pt:checked ~ #pt-label {
   color: black;
-  background: var(--green);
+  background: var(--accent);
 }
 
 #en:checked ~ #en-label {
   color: black;
-  background: var(--green);
+  background: var(--accent);
 }
 
 #flyer {
@@ -144,7 +144,7 @@ h4 {
 
 #artifact-video > a {
   width: 100%;
-  background: var(--green);
+  background: var(--accent);
   font-size: 24px;
   color: black;
 }
@@ -161,7 +161,7 @@ h4 {
 }
 
 .description h1 {
-  color: var(--green);
+  color: var(--accent);
 }
 
 .description p,
@@ -175,11 +175,11 @@ ul {
 
 li {
   margin-top: 10px;
-  color: var(--green) !important;
+  color: var(--accent) !important;
 }
 
 li a {
-  color: var(--green) !important;
+  color: var(--accent) !important;
   text-decoration: underline;
 }
 
@@ -190,7 +190,7 @@ li a::before {
 
 .bold {
   font-weight: 800;
-  color: var(--green);
+  color: var(--accent);
 }
 
 .room {
@@ -244,14 +244,14 @@ figcaption {
 
 .piece a {
   font-style: italic;
-  color: blue;
+  color: var(--accent);
   text-decoration: underline;
 }
 
 #login-block {
   margin: 50px 0 50px 0;
   padding: 30px;
-  border: 5px solid var(--green);
+  border: 5px solid var(--accent);
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -260,7 +260,7 @@ figcaption {
 }
 
 #login-block div {
-  color: var(--green);
+  color: var(--accent);
 }
 
 #login-block .prompt {
@@ -277,7 +277,7 @@ figcaption {
 
 .credits {
   padding-left: 30px;
-  border-left: solid var(--green);
+  border-left: solid var(--accent);
 }
 
 .credits > p {
@@ -289,7 +289,7 @@ figcaption {
   margin-left: 17px;
   margin-bottom: 30px;
   text-decoration: underline;
-  color: var(--green);
+  color: var(--accent);
 }
 
 .gallery-link::before {
@@ -311,7 +311,7 @@ figcaption {
   width: 1250px;
   margin: auto;
   margin-top: 220px;
-  color: var(--green);
+  color: var(--accent);
 }
 
 .picture {
@@ -319,7 +319,7 @@ figcaption {
   align-items: center;
   justify-content: center;
   height: 100%;
-  border: 1px solid var(--green);
+  border: 1px solid var(--accent);
 }
 
 .picture img {

@@ -20,7 +20,7 @@ a {
 h2,
 h3,
 h4 {
-  color: var(--green);
+  color: var(--accent);
 }
 
 .aftermovie {
@@ -31,7 +31,7 @@ h4 {
 }
 
 #aftermovie-link {
-  background: var(--green);
+  background: var(--accent);
   color: black;
 }
 
@@ -63,7 +63,7 @@ h4 {
 }
 
 .description h1 {
-  color: var(--green);
+  color: var(--accent);
 }
 
 .description p,
@@ -77,11 +77,11 @@ ul {
 
 li {
   margin-top: 10px;
-  color: var(--green) !important;
+  color: var(--accent) !important;
 }
 
 li a {
-  color: var(--green) !important;
+  color: var(--accent) !important;
   text-decoration: underline;
 }
 
@@ -92,12 +92,12 @@ li a::before {
 
 .bold {
   font-weight: 800;
-  color: var(--green);
+  color: var(--accent);
 }
 
 .credits {
   padding-left: 30px;
-  border-left: solid var(--green);
+  border-left: solid var(--accent);
 }
 
 .credits > p {
@@ -121,7 +121,7 @@ li a::before {
   justify-content: center;
   max-width: 400px;
   /* height: 100%; */
-  border: 1px solid var(--green);
+  border: 1px solid var(--accent);
 }
 
 .picture img {

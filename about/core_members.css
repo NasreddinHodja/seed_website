@@ -15,10 +15,11 @@ body {
 
 h1 {
   text-decoration: underline;
+  color: var(--accent);
 }
 
 .member > h2 > a {
-  color: var(--green);
+  color: var(--accent);
 }
 
 #content {
@@ -48,7 +49,8 @@ h1 {
 }
 
 .member a:hover {
-  color: var(--green);
+  color: var(--accent);
+  text-decoration: underline;
 }
 
 @media (max-width: 1200px) {

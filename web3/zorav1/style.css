@@ -26,7 +26,7 @@ p {
 }
 
 #description > a > h1:hover {
-  color: #abcf94;
+  color: var(--accent);
 }
 
 #content {
@@ -45,7 +45,7 @@ p {
 
 .bold {
   font-weight: 800;
-  color: var(--green);
+  color: var(--accent);
 }
 
 #description {
@@ -66,7 +66,7 @@ p {
 
 #description h1,
 #description h3 {
-  color: var(--green);
+  color: var(--accent);
   padding: 0 0 30px 0;
 }
 
@@ -79,7 +79,7 @@ p {
 #dr-lolli-video figcaption {
   margin-top: 10px;
   padding: 0 0 0 20px;
-  border-left: solid var(--green);
+  border-left: solid var(--foreground);
 }
 
 #video-caption {
@@ -100,8 +100,12 @@ p {
 
 #artists-names {
   padding-left: 25px;
-  border-left: solid var(--green);
+  border-left: solid var(--foreground);
   width: 100%;
+}
+
+#artists-names > p > a {
+  color: var(--accent);
 }
 
 #gallery {
@@ -216,7 +220,7 @@ p {
 
   .bold {
     font-weight: 800;
-    color: var(--green);
+    color: var(--accent);
   }
 
   #description {
@@ -230,7 +234,7 @@ p {
 
   #description h1,
   #description h3 {
-    color: var(--green);
+    color: var(--accent);
     padding: unset;
   }
 
@@ -264,12 +268,12 @@ p {
   #dr-lolli-video figcaption {
     margin-top: 10px;
     padding: 0 0 0 20px;
-    border-left: solid var(--green);
+    border-left: solid var(--foreground);
   }
 
   #artists-names {
     padding: 0 0 0 30px;
-    border-left: solid var(--green);
+    border-left: solid var(--foreground);
     width: unset;
   }
 

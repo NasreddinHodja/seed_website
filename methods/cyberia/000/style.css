@@ -28,7 +28,7 @@ a {
 }
 
 #galery-content > h1 {
-  color: var(--green);
+  color: var(--accent);
   padding: 10px 0 20px 8%;
 }
 
@@ -68,7 +68,7 @@ a {
   }
 
   #galery-content > h1 {
-    color: var(--green);
+    color: var(--accent);
     width: 100%;
     font-size: 25px;
     text-align: center;
