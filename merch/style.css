@@ -1,0 +1,107 @@
+@import "../header.css";
+@import "../defaults.css";
+
+#header-container {
+  background: black;
+}
+
+* {
+  background: black;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  font-family: "Azeret Mono";
+}
+
+#content {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  background: black;
+  min-width: 1100px;
+  font-size: 20px;
+  margin: 100px 0 100px 0;
+  padding: 5% 8% 0 8%;
+}
+
+#content h1 {
+  color: var(--accent);
+}
+
+#content a {
+  background: var(--accent);
+  color: black;
+}
+
+#video {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  gap: 10px;
+}
+
+#video iframe {
+  width: 600px;
+  height: 340px;
+}
+
+#shirts {
+  width: 40%;
+  margin: auto;
+}
+
+#visualid {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#visualid img {
+  width: 500px;
+}
+
+@media (max-width: 1500px) {
+  #content {
+    gap: 20px;
+    min-width: unset;
+    width: 100%;
+    font-size: 18px;
+    margin: 120px 0px 100px 0px;
+    padding: unset;
+  }
+
+  #content h1 {
+    font-size: 26px;
+    padding: 0 23px 0 23px;
+  }
+
+  #video {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 10px;
+  }
+
+  #video iframe {
+    width: 100%;
+    height: 340px;
+  }
+
+  #shirts {
+    width: 100%;
+  }
+
+  #visualid {
+    display: flex;
+    gap: 5px;
+    flex-direction: column;
+  }
+
+  #visualid img {
+    width: 100%;
+  }
+}
