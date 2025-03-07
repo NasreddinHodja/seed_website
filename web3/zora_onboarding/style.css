@@ -1,5 +1,5 @@
-@import "../../../header.css";
-@import "../../../defaults.css";
+@import "../../header.css";
+@import "../../defaults.css";
 
 #header-container {
   z-index: 2;
